@@ -1,0 +1,6 @@
+@KoiManagementSystem_HostAddress = http://localhost:5029
+
+GET {{KoiManagementSystem_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
