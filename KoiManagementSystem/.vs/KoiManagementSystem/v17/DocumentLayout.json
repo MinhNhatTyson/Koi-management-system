@@ -1,0 +1,461 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\authen\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\authen\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\iauthenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iauthenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\authenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\authenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\repository\\authenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repository\\authenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\iauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\koicarecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\koicarecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\saltcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\saltcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\waterparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\waterparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\repositorylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repositorylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\koimanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\koimanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAuthenService.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IAuthenService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IAuthenService.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IAuthenService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IAuthenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:26:08.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\Program.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Program.cs",
+              "RelativeToolTip": "KoiManagementSystem\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAADwvzEAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:16:05.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "KoiManagementSystem\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:46:54.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthenController.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs",
+              "RelativeToolTip": "KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:47:23.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\AuthenRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Repository\\AuthenRepository.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\AuthenRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Repository\\AuthenRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:24:42.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IAuthenRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IAuthenRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IAuthenRepository.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IAuthenRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IAuthenRepository.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:20:28.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\appsettings.json",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\appsettings.json",
+              "RelativeToolTip": "KoiManagementSystem\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T02:16:02.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenService.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\AuthenService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Service\\AuthenService.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\AuthenService.cs",
+              "RelativeToolTip": "ServiceLayer\\Service\\AuthenService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAYwCcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:27:30.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Service\\EmailService.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\EmailService.cs",
+              "RelativeToolTip": "ServiceLayer\\Service\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:09:06.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IEmailService.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:09:21.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Class1.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Class1.cs",
+              "RelativeToolTip": "ServiceLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:10:30.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Request\\RegisterRequest.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\RegisterRequest.cs",
+              "RelativeToolTip": "BusinessLayer\\Request\\RegisterRequest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:23:40.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\WeatherForecast.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\WeatherForecast.cs",
+              "RelativeToolTip": "KoiManagementSystem\\WeatherForecast.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:17:39.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Class1.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Class1.cs",
+              "RelativeToolTip": "RepositoryLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:02:09.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "KoiCareContext.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\KoiCareContext.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\KoiCareContext.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\KoiCareContext.cs",
+              "RelativeToolTip": "BusinessLayer\\KoiCareContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:01:49.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Request\\LoginRequest.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\LoginRequest.cs",
+              "RelativeToolTip": "BusinessLayer\\Request\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:21:53.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entities\\OrderItem.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "BusinessLayer\\Entities\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:20:09.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entities\\Product.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Product.cs",
+              "RelativeToolTip": "BusinessLayer\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:20:07.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SaltCalculation.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\SaltCalculation.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entities\\SaltCalculation.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\SaltCalculation.cs",
+              "RelativeToolTip": "BusinessLayer\\Entities\\SaltCalculation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:20:03.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entities\\User.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\User.cs",
+              "RelativeToolTip": "BusinessLayer\\Entities\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:19:38.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Report.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entities\\Report.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Report.cs",
+              "RelativeToolTip": "BusinessLayer\\Entities\\Report.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:20:07.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WaterParameter.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\WaterParameter.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entities\\WaterParameter.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\WaterParameter.cs",
+              "RelativeToolTip": "BusinessLayer\\Entities\\WaterParameter.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:20:04.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Entities\\Role.cs",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Role.cs",
+              "RelativeToolTip": "BusinessLayer\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:19:37.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RepositoryLayer",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj",
+              "RelativeDocumentMoniker": "RepositoryLayer\\RepositoryLayer.csproj",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj",
+              "RelativeToolTip": "RepositoryLayer\\RepositoryLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T02:17:40.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "KoiManagementSystem",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\KoiManagementSystem.csproj",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj",
+              "RelativeToolTip": "KoiManagementSystem\\KoiManagementSystem.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T02:15:59.112Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
