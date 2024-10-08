@@ -1,4 +1,5 @@
 ﻿using BusinessLayer;
+using KoiManagementSystem.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore; // Thêm using cho EntityFrameworkCore
 using Microsoft.Extensions.Configuration;
@@ -50,6 +51,8 @@ builder.Services.AddSwaggerGen();
 // Đăng ký các service
 builder.Services.AddScoped<IAuthenRepository, AuthenRepository>();
 builder.Services.AddScoped<IAuthenService, AuthenService>();
+builder.Services.AddScoped<IKoiFishRepository, KoiFishRepository>();
+builder.Services.AddScoped<IKoiFishService, KoiFishService>();
 
 // Cấu hình CORS cho ứng dụng
 builder.Services.AddCors(options =>
@@ -70,6 +73,14 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+
+    //Fill data
+    using (var scope = app.Services.CreateScope())
+    {
+        var context = scope.ServiceProvider.GetService<KoiCareContext>();
+        var dataGenerator = new DataGenerator();
+        dataGenerator.PopulateDatabase(context);
+    }
 }
 
 // Sử dụng HTTPS redirection
