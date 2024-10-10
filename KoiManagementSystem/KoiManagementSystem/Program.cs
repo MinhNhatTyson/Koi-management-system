@@ -50,6 +50,9 @@ builder.Services.AddSwaggerGen();
 // Đăng ký các service
 builder.Services.AddScoped<IAuthenRepository, AuthenRepository>();
 builder.Services.AddScoped<IAuthenService, AuthenService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
+
 
 // Cấu hình CORS cho ứng dụng
 builder.Services.AddCors(options =>

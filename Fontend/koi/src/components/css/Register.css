@@ -1,0 +1,156 @@
+.wrapper {
+    width: 420px;
+    background: rgba(0, 0, 0, 0.5); /* Thêm màu nền để nổi bật hơn */
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px); /* Giảm độ mờ cho hiệu ứng mờ */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border-radius: 15px; /* Cải thiện góc bo */
+    padding: 40px 30px; /* Tăng padding cho vẻ ngoài thoáng đãng */
+    margin: 20px auto; /* Giữa màn hình */
+}
+
+.wrapper h1 {
+    font-size: 32px; /* Điều chỉnh kích thước tiêu đề */
+    text-align: center;
+    margin-bottom: 20px; /* Tăng khoảng cách dưới tiêu đề */
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column; /* Sắp xếp các trường theo cột */
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0; /* Giảm khoảng cách giữa các trường */
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 30px; /* Cải thiện góc bo */
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 45px 15px 20px; /* Điều chỉnh padding cho không gian thoáng */
+    transition: border 0.3s; /* Hiệu ứng chuyển tiếp */
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Màu placeholder nhẹ nhàng hơn */
+}
+
+.input-box input:focus {
+    border-color: #fff; /* Đổi màu viền khi focus */
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Canh giữa biểu tượng */
+    font-size: 20px; /* Tăng kích thước biểu tượng */
+    color: rgba(255, 255, 255, 0.8); /* Thay đổi màu biểu tượng */
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: #ff6b81; /* Thay đổi màu nền nút */
+    border: none;
+    outline: none;
+    border-radius: 30px; /* Cải thiện góc bo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff; /* Màu chữ trắng cho nút */
+    font-weight: 700;
+    transition: background 0.3s; /* Hiệu ứng chuyển tiếp */
+}
+
+.wrapper button:hover {
+    background: #ff4f60; /* Màu nền nút khi hover */
+}
+
+.login-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px; /* Thêm khoảng cách trên cho link đăng nhập */
+}
+
+.login-link a {
+    color: #ff6b81; /* Thay đổi màu link */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.login-link a:hover {
+    text-decoration: underline; /* Gạch dưới khi hover */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.Register-page {
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('D:\groupProject\Koi-management-system\Fontend\koi\src\components\Assecs\cakoi.png')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('D:\groupProject\Koi-management-system\Fontend\koi\src\components\Assecs\cakoi.png')
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+} */
+  
