@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BFIZhRF3Oex3CJZbEzEkFSPzqT633Zc7HdCaGUGfS1jKZUpvCSTWRVvjWOZ/QBqbPLilhW6SVDxWRwrj4/OGrQ==",
+  "dgSpecHash": "+s200pMTA+V5jaamyyi00tQ0mv3g20iLPMRZ1ZUHyRy6/8PeOpDd8N+Xbf/ZOd7/o4cCUjVj+5SlHllIVdtPYA==",
   "success": true,
   "projectFilePath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",

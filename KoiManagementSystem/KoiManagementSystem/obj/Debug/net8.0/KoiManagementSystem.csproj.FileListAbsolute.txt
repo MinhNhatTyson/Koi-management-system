@@ -159,3 +159,4 @@ D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.genruntimeconfig.cache
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\ref\KoiManagementSystem.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Bogus.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\FluentValidation.dll

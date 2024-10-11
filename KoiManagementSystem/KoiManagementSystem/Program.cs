@@ -51,8 +51,14 @@ builder.Services.AddSwaggerGen();
 // Đăng ký các service
 builder.Services.AddScoped<IAuthenRepository, AuthenRepository>();
 builder.Services.AddScoped<IAuthenService, AuthenService>();
-builder.Services.AddScoped<IKoiFishRepository, KoiFishRepository>();
 builder.Services.AddScoped<IKoiFishService, KoiFishService>();
+builder.Services.AddScoped<IKoiGrowthService, KoiGrowthService>();
+builder.Services.AddScoped<IFeedScheduleService, FeedScheduleService>();
+
+//Dang ky DI
+builder.Services.AddTransient<IKoiFishRepository, KoiFishRepository>();
+builder.Services.AddTransient<IKoiGrowthRepository, KoiGrowthRepository>();
+builder.Services.AddTransient<IFeedScheduleRepository, FeedScheduleRepository>();
 
 // Cấu hình CORS cho ứng dụng
 builder.Services.AddCors(options =>
@@ -77,8 +83,9 @@ if (app.Environment.IsDevelopment())
     //Fill data
     using (var scope = app.Services.CreateScope())
     {
+        ;
         var context = scope.ServiceProvider.GetService<KoiCareContext>();
-        var dataGenerator = new DataGenerator();
+        var dataGenerator = new DataGenerator(context);
         dataGenerator.PopulateDatabase(context);
     }
 }
