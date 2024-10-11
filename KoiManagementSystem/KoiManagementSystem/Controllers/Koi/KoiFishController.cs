@@ -47,19 +47,19 @@ namespace KoiManagementSystem.Controllers.Koi
         }
 
         [HttpPost]
-        public async Task<ActionResult<ResponseEntity<KoiFish>>> Create(KoiFishRequestDTO koiFishRequestDTO)
+        public async Task<ActionResult<ResponseEntity<KoiFish>>> AddNewKoi(KoiFishRequestDTO koiFishRequestDTO)
         {
             return await _koiFishService.Create(koiFishRequestDTO);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<ResponseEntity<KoiFish>>> Update(int id, KoiFishRequestDTO koiFish)
+        public async Task<ActionResult<ResponseEntity<KoiFish>>> UpdateAFish(int id, KoiFishRequestDTO koiFish)
         {
             return await _koiFishService.Update(id, koiFish);
         }
 
         [HttpDelete("{id}")]
-        public async Task<ActionResult<ResponseEntity<bool>>> Delete(int id)
+        public async Task<ActionResult<ResponseEntity<bool>>> DeleteAFish(int id)
         {
             return await _koiFishService.Delete(id);
         }
