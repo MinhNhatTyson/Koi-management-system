@@ -1,0 +1,69 @@
+.main {
+    display: flex; /* Sử dụng flexbox để tạo bố cục */
+}
+
+.main .sidebarWrapper {
+    width: 30%; /* Tăng chiều rộng lên 30% (hoặc hơn nếu cần) */
+    flex: 0 0 30%; /* Đảm bảo rằng chiều rộng tương ứng với sidebar */
+    transition: all 0.3s ease-in-out;
+}
+
+.main .sidebarWrapper .sidebar {
+    height: 100vh; /* Chiếm toàn bộ chiều cao của viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff; /* Màu nền trắng */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+    padding-top: 70px; /* Khoảng cách từ trên xuống */
+    overflow-y: auto; /* Thêm cuộn nếu nội dung vượt quá chiều cao */
+}
+
+.main .sidebarWrapper .sidebar ul {
+    margin: 0; /* Đặt margin về 0 */
+    padding: 0; /* Đặt padding về 0 */
+}
+
+.main .sidebarWrapper .sidebar ul li {
+    list-style: none;
+}
+
+.main .sidebarWrapper .sidebar ul li button {
+    color: #333; /* Màu chữ tối hơn */
+    text-align: left;
+    justify-content: left;
+    border-radius: 4px; /* Bo góc nhẹ */
+    padding: 12px 15px;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    background: transparent; /* Nền trong suốt */
+    transition: background 0.3s; /* Hiệu ứng chuyển động */
+}
+
+.main .sidebarWrapper .sidebar ul li button:hover {
+    background: rgba(0, 0, 0, 0.05); /* Hiệu ứng nền khi hover */
+}
+
+.main .sidebarWrapper .sidebar ul li button .icon {
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.main .sidebarWrapper .sidebar ul li button .icon svg {
+    color: #007bff; /* Màu cho icon */
+    opacity: 0.9; /* Độ mờ */
+    font-size: 22px;
+}
+
+.main .sidebarWrapper .sidebar ul li button .arrow {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    color: #007bff; /* Màu cho icon arrow */
+}
