@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace BusinessLayer.Entities;
 
@@ -26,9 +27,9 @@ public partial class KoiFish
     public decimal? Price { get; set; }
 
     public int? PondId { get; set; }
-
+    [JsonIgnore]
     public virtual ICollection<FeedSchedule> FeedSchedules { get; set; } = new List<FeedSchedule>();
-
+    [JsonIgnore]
     public virtual ICollection<KoiGrowth> KoiGrowths { get; set; } = new List<KoiGrowth>();
 
     public virtual Pond? Pond { get; set; }
