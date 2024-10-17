@@ -66,7 +66,7 @@ header .Button.rounded-circle:hover svg{color: #0858f7 !important;transition: al
 
 
 .main .sidebarWrapper{width: 20%;flex: 0 0 20%; transform: all 0.3s ease-in-out;}
-.main .sidebarWrapper .sidebar{width: 260px;height: 100vh;max-height: 100vh;position: fixed;top:70px; left: 0px;background: #fff;}
+.main .sidebarWrapper .sidebar{width: 300px;height: 100vh;max-height: 100vh;position: fixed;top:70px; left: 0px;background: #fff;}
 .main .sidebarWrapper .sidebar ::-webkit-scrollbar-thumb{background: transparent !important;}
 .main .sidebarWrapper:hover .sidebar::-webkit-scrollbar{background: #0858f7 !important;}
 .main .sidebarWrapper .sidebar ul{margin-bottom: 0px;padding:10px 15px;}
@@ -84,6 +84,8 @@ text-transform: capitalize !important; font-weight: 600 !important;font-size: 15
 .main .sidebarWrapper .sidebar ul li button:hover{background: #f1f1f1 !important;}
 
 .main .sidebarWrapper .sidebar ul li button.active{background: #f1f1f1 !important;}
+.main .sidebarWrapper .sidebar ul li button.active .icon svg{color: #0858f7 !important;}
+
 .main .sidebarWrapper .sidebar ul li button.active .arrow{transform: rotate(90deg);}
 
 .main .sidebarWrapper .sidebar ul .submenu {padding:0px 30px;position: relative;transition: 0.3s; }
@@ -96,7 +98,7 @@ text-transform: capitalize !important; font-weight: 600 !important;font-size: 15
 .main .sidebarWrapper .sidebar ul .submenuWrapper .colapsed{height: 0px;}
 .main .sidebarWrapper .sidebar ul .submenuWrapper .colapsed .submenu{opacity: 0;}
 
-.main .sidebarWrapper .sidebar ul .submenuWrapper .colapse{height: auto;overflow: inherit;}
+.main .sidebarWrapper .sidebar ul .submenuWrapper .colapse{height: auto;overflow: inherit;opacity: 1;}
 .main .sidebarWrapper .sidebar ul .submenuWrapper .colapse .submenu{opacity: 1;height: auto;}
 
 
@@ -115,3 +117,24 @@ top:-20px;right :-30px;opacity:  0.5;}
 .logoutWrapper .logoutBox .button svg{margin-right: 10px;font-size: 18px !important}
 
 
+
+.main .content{width: 80%; flex: 0 0 75% }
+.right-content {padding: 90px 30px;padding-top: 100px;}
+
+.dashboardBoxWrapper{gap: 20px; width: 100%; flex-wrap: wrap;margin-top: 70px;}
+.dashboardBoxWrapper .dashboardBox{width: 48%; height: 200px; border-radius: 10px;overflow: hidden;padding: 20px; justify-content: space-around; flex-direction: column; display: flex; flex-direction: column; justify-content: space-around; text-align: left ;position: relative;}
+.dashboardBoxWrapper .dashboardBox .col1 h4{font-size: 19px;font-weight: 700;}
+.dashboardBoxWrapper .dashboardBox .col1 span{font-size: 35px !important;font-weight: bold;line-height:  45px;}
+.dashboardBoxWrapper .dashboardBox .icon {display: flex; align-items: center; justify-content: center;width: 55px; height: 55px;border-radius: 10px;background-image: linear-gradient(to bottom right , rgba(0,0,0,0.0),rgba(0,0,0,0.2)); margin-left: 140px; margin-bottom: 30px;}
+.dashboardBoxWrapper .dashboardBox .icon svg{font-size: 45px;opacity: 0.2; color: #fff; }
+.dashboardBoxWrapper .dashboardBox .toggleIcon{font-size: 22px;color: rgba(0, 0, 0, 0.5);cursor: pointer;  margin-left: 240px; min-width: 40px !important; width: 40px !important; height: 40px !important; border-radius: 50% !important;}
+.dashboardBoxWrapper .dashboardBox .chart{opacity: 0.1;position: absolute;bottom: 20px; left: 20px;}
+.dashboardBoxWrapper .dashboardBox .chart svg{font-size: 150px;color: #000;}
+.dashboardBoxWrapper .dashboardBox .bottomEle{position: relative; top: 25px;}
+.dashboardBoxWrapperRow .box{width: 250%; height: 85.4%;padding: 15px;overflow: hidden;}
+.graphBox{background-image: linear-gradient(#1e50b5,#2a6ff7);border-radius: 10px;padding: 25px;margin-top: 70px;}
+.graphBox .totalPrice h6{font-size: 25px;font-weight: 700; padding-left: 10px;padding-top: 10px;}
+.graphBox .totalPrice h3{font-size: 25px;font-weight: 700;margin-top: 20px; padding-left: 10px;}
+.graphBox .totalPrice p{font-size: 13px;color:  #fff;opacity: 0.7; padding-left: 13px;margin-top: 20px;}
+.card{width: 135%;border-radius: 10px;}
+.card .hd {font-size: 18px;font-weight: bold;color: #403e57;}
