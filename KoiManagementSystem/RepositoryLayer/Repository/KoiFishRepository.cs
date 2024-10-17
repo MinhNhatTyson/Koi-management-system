@@ -111,6 +111,46 @@ namespace RepositoryLayer.Repository
                     Price = koiFishRequestDTO.Price,
                     PondId = koiFishRequestDTO.PondId,
                 };
+
+                // Update KoiGrowth plans
+                if (koiFishRequestDTO.KoiGrowthIds != null)
+                {
+                    foreach (var koiGrowthId in koiFishRequestDTO.KoiGrowthIds)
+                    {
+                        var existingKoiGrowth = await _context.KoiGrowths.FindAsync(koiGrowthId);
+                        if (existingKoiGrowth == null)
+                        {
+                            return new ResponseEntity<KoiFish>("No growth plans found with such id");
+                        }
+                        else
+                        {
+
+                            koiFish.KoiGrowths.Add(existingKoiGrowth);
+                            if (!updateKoiId(koiGrowthId, koiFish.KoiId)) return new ResponseEntity<KoiFish>("Something wrong while trying to assign a new koi for a growth plan");
+
+                        }
+                    }
+                }
+
+                // Update FeedSchedules
+                if (koiFishRequestDTO.FeedScheduleIds != null)
+                {
+                    foreach (var feedScheduleId in koiFishRequestDTO.FeedScheduleIds)
+                    {
+                        var existingFeedSchedule = await _context.FeedSchedules.FindAsync(feedScheduleId);
+                        if (existingFeedSchedule == null)
+                        {
+                            return new ResponseEntity<KoiFish>("No feed schedule found with such id");
+                        }
+                        else
+                        {
+
+                            koiFish.FeedSchedules.Add(existingFeedSchedule);
+                            if (!updateFeedId(feedScheduleId, koiFish.KoiId)) return new ResponseEntity<KoiFish>("Something wrong while trying to assign a new koi for a schedule");
+
+                        }
+                    }
+                }
                 _context.KoiFishes.Add(koiFish);
                 await _context.SaveChangesAsync();
                 return new ResponseEntity<KoiFish>(koiFish);

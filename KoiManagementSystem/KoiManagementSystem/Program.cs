@@ -62,10 +62,11 @@ builder.Services.AddTransient<IFeedScheduleRepository, FeedScheduleRepository>()
 
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
-
-
 builder.Services.AddScoped<IKoiFishRepository, KoiFishRepository>();
 builder.Services.AddScoped<IKoiFishService, KoiFishService>();
+builder.Services.AddScoped<IKoiFishRepository, KoiFishRepository>();
+builder.Services.AddScoped<IKoiFishService, KoiFishService>();
+
 
 // Cấu hình CORS cho ứng dụng
 builder.Services.AddCors(options =>
@@ -77,6 +78,19 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
+builder.Services.AddControllers();
+
 
 var app = builder.Build();
 
@@ -102,7 +116,7 @@ app.UseHttpsRedirection();
 app.UseAuthentication();
 // Kích hoạt CORS
 app.UseCors("AllowReactApp"); // Đừng quên gọi UseCors
-
+app.UseCors("AllowAll");
 app.UseAuthorization();
 
 // Map các controller

@@ -1,4 +1,5 @@
-﻿using BusinessLayer.Request;
+﻿using BusinessLayer.Entities;
+using BusinessLayer.Request;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -19,7 +20,7 @@ namespace KoiManagementSystem.Controllers.Authen
         }
 
         [HttpPost("Register")]
-        public async Task<ActionResult> Register([FromBody]  BusinessLayer.Request.RegisterRequest registerRequest) {
+        public async Task<ActionResult<User>> Register([FromBody]  BusinessLayer.Request.RegisterRequest registerRequest) {
             try
             {
                 if (!ModelState.IsValid)
