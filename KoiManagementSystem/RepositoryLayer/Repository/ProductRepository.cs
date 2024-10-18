@@ -28,6 +28,20 @@ namespace RepositoryLayer.Repository
             return product;
         }
 
+        public async Task<Product> DeleteProduct(int productID)
+        {
+            Product product = await _context.Products.FirstOrDefaultAsync(n => n.ProductId == productID);
+            if (product == null)
+            {
+                return null;
+            }
+            _context.Products.Remove(product);
+            await _context.SaveChangesAsync();
+            return product;
+
+
+        }
+
         public async Task<List<ProductResponse>> GetAllProduct()
         {
             var product = await _context.Products.Select(
@@ -37,15 +51,48 @@ namespace RepositoryLayer.Repository
                     ProductName = p.ProductName,
                     ProductDescription = p.ProductDescription,
                     Price  = p.Price,
-                    StockQuantity = p.StockQuantity                   
+                    StockQuantity = p.StockQuantity,  
+                    Image = p.Image
                 }).ToListAsync();
             return product;
         }
        
 
-        public Task<ProductResponse> GetProductById(int productId)
+        public async Task<ProductResponse> GetProductById(int productId)
         {
-            throw new NotImplementedException();
+            var product = await _context.Products.FirstOrDefaultAsync(n => n.ProductId == productId);
+            if (product == null)
+            {
+                return null; 
+            }
+            var productResponse = new ProductResponse
+            {
+                ProductId = productId,
+                Image = product.Image,
+                StockQuantity = product.StockQuantity,
+                Price = product.Price,
+                ProductDescription = product.ProductDescription
+            };
+            return productResponse;
         }
+
+        public async Task<ProductResponse> UpdateProduct(ProductResponse productResponse)
+        {
+            var product = await _context.Products.FindAsync(productResponse.ProductId);
+            if (product == null)
+            {
+                return null;
+            }
+            product.ProductName = productResponse.ProductName;  
+            product.ProductDescription = productResponse.ProductDescription;
+            product.Price = productResponse.Price;
+            product.StockQuantity = productResponse.StockQuantity;
+            product.Image = productResponse.Image;
+            _context.Products.Update(product);
+            await _context.SaveChangesAsync();
+            return productResponse;
+        }
+
+
     }
 }

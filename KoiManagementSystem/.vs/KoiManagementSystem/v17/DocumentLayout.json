@@ -3,256 +3,260 @@
   "WorkspaceRootPath": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\authen\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\authen\\authencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\FeedScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Repository\\FeedScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\response\\responseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\response\\responseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\LoginRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Request\\LoginRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\repository\\koifishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repository\\koifishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\ProductRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Request\\ProductRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\repository\\feedschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repository\\feedschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\RegisterRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Request\\RegisterRequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\KoiFishRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Repository\\KoiFishRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Response\\ResponseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Response\\ResponseEntity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\koifishrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\koifishrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\feedschedulerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\feedschedulerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\KoiFishRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Request\\KoiFishRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\FeedScheduleRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Request\\FeedScheduleRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\koicarecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\koicarecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\product\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\product\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Service\\DataGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Service\\DataGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\KoiCareContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\KoiCareContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Product\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Controllers\\Product\\ProductController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\service\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\service\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\ifeedscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\ifeedscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\authenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\authenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IFeedScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Interface\\IFeedScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\iauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iauthenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Validator\\FeedScheduleRequestDTOValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Validator\\FeedScheduleRequestDTOValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\validator\\koigrowthrequestdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\validator\\koigrowthrequestdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\AuthenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Service\\AuthenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\validator\\feedschedulerequestdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\validator\\feedschedulerequestdtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\response\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\response\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Response\\ProductResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Response\\ProductResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IAuthenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Interface\\IAuthenService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\koi\\koigrowthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\koi\\koigrowthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Validator\\KoiGrowthRequestDTOValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Validator\\KoiGrowthRequestDTOValidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\koi\\koifishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\koi\\koifishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\WaterParameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\WaterParameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\waterparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\waterparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IAuthenRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Interface\\IAuthenRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\koigrowthrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\koigrowthrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Koi\\KoiFishController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Controllers\\Koi\\KoiFishController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\koi\\feedschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\koi\\feedschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Koi\\KoiGrowthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Controllers\\Koi\\KoiGrowthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\iauthenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iauthenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\KoiGrowthRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Request\\KoiGrowthRequestDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IFeedScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Interface\\IFeedScheduleRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\ifeedschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\ifeedschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Service\\EmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\koifishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\koifishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\KoiFishService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Service\\KoiFishService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\ikoigrowthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\ikoigrowthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\koigrowthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\koigrowthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IKoiGrowthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Interface\\IKoiGrowthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\KoiGrowthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Service\\KoiGrowthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Service\\ProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\repository\\koigrowthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repository\\koigrowthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\ProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Repository\\ProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\feedscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\feedscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\KoiGrowthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Repository\\KoiGrowthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\businesslayer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\FeedScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Service\\FeedScheduleService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\koifish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\koifish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Interface\\IProductService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\BusinessLayer.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\ikoifishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\ikoifishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IKoiFishService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Interface\\IKoiFishService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\KoiFish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\KoiFish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\repository\\authenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repository\\authenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ServiceLayer\\Interface\\IEmailService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Interface\\IProductRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\ikoigrowthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\ikoigrowthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IKoiGrowthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Interface\\IKoiGrowthRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\ikoifishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\ikoifishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IKoiFishRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Interface\\IKoiFishRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\AuthenRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\Repository\\AuthenRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\Product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\Role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\saltcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\saltcalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\Report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\SaltCalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\SaltCalculation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\feedschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\feedschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\BlogPost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\BlogPost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\koigrowth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\koigrowth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\FeedSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\FeedSchedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\pond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\pond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\KoiGrowth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\KoiGrowth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Pond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\Pond.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\businesslayer\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\repositorylayer\\repositorylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repositorylayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\OrderItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BusinessLayer\\Entities\\OrderItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\koimanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\koimanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RepositoryLayer\\RepositoryLayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:KoiManagementSystem\\KoiManagementSystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -262,7 +266,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 90,
-          "SelectedChildIndex": 27,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -342,7 +346,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-17T04:54:50.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FeedScheduleRepository.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\FeedScheduleRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Repository\\FeedScheduleRepository.cs",
@@ -350,12 +367,11 @@
               "RelativeToolTip": "RepositoryLayer\\Repository\\FeedScheduleRepository.cs",
               "ViewState": "AQIAAHsAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T03:40:06.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T03:40:06.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\LoginRequest.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Request\\LoginRequest.cs",
@@ -363,12 +379,11 @@
               "RelativeToolTip": "BusinessLayer\\Request\\LoginRequest.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAAAsAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T02:21:53.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T02:21:53.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "ProductRequest.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\ProductRequest.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Request\\ProductRequest.cs",
@@ -376,12 +391,11 @@
               "RelativeToolTip": "BusinessLayer\\Request\\ProductRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:34:07.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T23:34:07.341Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Request\\RegisterRequest.cs",
@@ -389,12 +403,11 @@
               "RelativeToolTip": "BusinessLayer\\Request\\RegisterRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:34:07.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-10T23:34:07.876Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "KoiFishRepository.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\KoiFishRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Repository\\KoiFishRepository.cs",
@@ -402,12 +415,11 @@
               "RelativeToolTip": "RepositoryLayer\\Repository\\KoiFishRepository.cs",
               "ViewState": "AQIAAIcAAAAAAAAAAAAmwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T05:04:23.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T05:04:23.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ResponseEntity.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Response\\ResponseEntity.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Response\\ResponseEntity.cs",
@@ -415,12 +427,11 @@
               "RelativeToolTip": "BusinessLayer\\Response\\ResponseEntity.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T05:06:58.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T05:06:58.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Class1.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Class1.cs",
@@ -428,12 +439,11 @@
               "RelativeToolTip": "ServiceLayer\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T03:10:30.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T03:10:30.922Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "AuthenController.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs",
@@ -441,12 +451,11 @@
               "RelativeToolTip": "KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-07T02:47:23.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-07T02:47:23.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Program.cs",
@@ -459,7 +468,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "KoiFishRequestDTO.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\KoiFishRequestDTO.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Request\\KoiFishRequestDTO.cs",
@@ -467,12 +476,11 @@
               "RelativeToolTip": "BusinessLayer\\Request\\KoiFishRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T03:40:51.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T03:40:51.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "FeedScheduleRequestDTO.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\FeedScheduleRequestDTO.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Request\\FeedScheduleRequestDTO.cs",
@@ -480,12 +488,11 @@
               "RelativeToolTip": "BusinessLayer\\Request\\FeedScheduleRequestDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-12T03:40:50.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-12T03:40:50.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Properties\\launchSettings.json",
@@ -497,7 +504,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 13,
               "Title": "DataGenerator.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Service\\DataGenerator.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Service\\DataGenerator.cs",
@@ -509,7 +516,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "KoiCareContext.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\KoiCareContext.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\KoiCareContext.cs",
@@ -521,7 +528,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Product\\ProductController.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Product\\ProductController.cs",
@@ -533,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\appsettings.json",
               "RelativeDocumentMoniker": "KoiManagementSystem\\appsettings.json",
@@ -545,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\WeatherForecast.cs",
@@ -557,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Class1.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Class1.cs",
@@ -569,7 +576,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\WeatherForecastController.cs",
@@ -581,7 +588,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IFeedScheduleService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IFeedScheduleService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IFeedScheduleService.cs",
@@ -593,7 +600,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 21,
               "Title": "FeedScheduleRequestDTOValidator.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Validator\\FeedScheduleRequestDTOValidator.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Validator\\FeedScheduleRequestDTOValidator.cs",
@@ -605,7 +612,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "AuthenService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\AuthenService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Service\\AuthenService.cs",
@@ -617,7 +624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 23,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Class1.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Class1.cs",
@@ -641,7 +648,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "IAuthenService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IAuthenService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IAuthenService.cs",
@@ -653,7 +660,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "KoiGrowthRequestDTOValidator.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Validator\\KoiGrowthRequestDTOValidator.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Validator\\KoiGrowthRequestDTOValidator.cs",
@@ -665,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "WaterParameter.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\WaterParameter.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\WaterParameter.cs",
@@ -677,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 28,
               "Title": "IAuthenRepository.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IAuthenRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IAuthenRepository.cs",
@@ -689,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "KoiFishController.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Koi\\KoiFishController.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Koi\\KoiFishController.cs",
@@ -701,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "KoiGrowthController.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Koi\\KoiGrowthController.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Koi\\KoiGrowthController.cs",
@@ -713,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "KoiGrowthRequestDTO.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\KoiGrowthRequestDTO.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Request\\KoiGrowthRequestDTO.cs",
@@ -725,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "IFeedScheduleRepository.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IFeedScheduleRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IFeedScheduleRepository.cs",
@@ -737,7 +744,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "EmailService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\EmailService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Service\\EmailService.cs",
@@ -761,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "FeedScheduleController.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs",
@@ -773,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "IKoiGrowthService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IKoiGrowthService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IKoiGrowthService.cs",
@@ -785,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "KoiGrowthService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\KoiGrowthService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Service\\KoiGrowthService.cs",
@@ -797,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\ProductService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Service\\ProductService.cs",
@@ -809,7 +816,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Repository\\ProductRepository.cs",
@@ -821,7 +828,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "KoiGrowthRepository.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\KoiGrowthRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Repository\\KoiGrowthRepository.cs",
@@ -833,7 +840,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "FeedScheduleService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\FeedScheduleService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Service\\FeedScheduleService.cs",
@@ -845,7 +852,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IProductService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IProductService.cs",
@@ -857,8 +864,8 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "BusinessLayer",
+              "DocumentIndex": 43,
+              "Title": "BusinessLayer.csproj",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj",
               "RelativeDocumentMoniker": "BusinessLayer\\BusinessLayer.csproj",
               "ToolTip": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj",
@@ -880,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "KoiFish.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\KoiFish.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\KoiFish.cs",
@@ -892,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IEmailService.cs",
               "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IEmailService.cs",
@@ -940,7 +947,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "AuthenRepository.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\AuthenRepository.cs",
               "RelativeDocumentMoniker": "RepositoryLayer\\Repository\\AuthenRepository.cs",
@@ -952,7 +959,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "Product.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\Product.cs",
@@ -976,7 +983,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "Report.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Report.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\Report.cs",
@@ -1000,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "SaltCalculation.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\SaltCalculation.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\SaltCalculation.cs",
@@ -1012,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "BlogPost.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\BlogPost.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\BlogPost.cs",
@@ -1024,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "FeedSchedule.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\FeedSchedule.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\FeedSchedule.cs",
@@ -1036,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "KoiGrowth.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\KoiGrowth.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\KoiGrowth.cs",
@@ -1048,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "Pond.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\Pond.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\Pond.cs",
@@ -1072,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "OrderItem.cs",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Entities\\OrderItem.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Entities\\OrderItem.cs",
@@ -1084,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "RepositoryLayer.csproj",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj",
               "RelativeDocumentMoniker": "RepositoryLayer\\RepositoryLayer.csproj",
@@ -1096,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "KoiManagementSystem.csproj",
               "DocumentMoniker": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj",
               "RelativeDocumentMoniker": "KoiManagementSystem\\KoiManagementSystem.csproj",
