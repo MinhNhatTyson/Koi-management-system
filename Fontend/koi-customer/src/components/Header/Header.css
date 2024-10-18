@@ -1,0 +1,64 @@
+/* Header container */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo */
+  .logo h1 {
+    padding-left: 50px;
+    font-family: 'Arial', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  /* Navigation Links */
+  .nav .nav-list {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav .nav-list li {
+    padding: 20px;
+    margin: 0 15px;
+  }
+  
+  .nav .nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .nav .nav-list li a:hover, 
+  .nav .nav-list li a.active {
+    color: #8b4513; /* Brown color for active link */
+    border-bottom: 2px solid #8b4513; /* Underline for active link */
+  }
+  
+  /* Icons Section */
+  .icons {
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons .icon {
+    font-size: 25px;
+    margin-left: 20px;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .icons .icon:hover {
+    color: #8b4513; /* Brown color on hover */
+  }
+  

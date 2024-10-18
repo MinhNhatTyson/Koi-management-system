@@ -93,7 +93,6 @@
 .login-link a:hover {
     text-decoration: underline; /* Gạch dưới khi hover */
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 .Register-page {
     margin: 0;
@@ -106,7 +105,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('D:\groupProject\Koi-management-system\Fontend\koi\src\components\Assecs\cakoi.png')
+    background: url('D:\Code\PRN231\Project\Koi-management-system\Fontend\koi\src\components\Assecs\cakoi.png')
     no-repeat;
     background-size: cover;
     background-position: center;
