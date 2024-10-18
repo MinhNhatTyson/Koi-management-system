@@ -11,10 +11,9 @@ namespace RepositoryLayer.Interface
     public interface IProductRepository
     {
         Task<Product> CreateProduct(Product product);
+        Task<Product> DeleteProduct(int productID);
         Task<List<ProductResponse>> GetAllProduct();
         Task<ProductResponse> GetProductById(int productId);
-
-        
-
+        Task<ProductResponse> UpdateProduct(ProductResponse product);
     }
 }
