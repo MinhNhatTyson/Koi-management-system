@@ -1,0 +1,111 @@
+  /* Main container for the contact section */
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  /* Container for the content to ensure centralized layout */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; /* Restrict max width */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Heading styles */
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Paragraph for description */
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 2.5rem;
+    color: #555;
+    text-align: center;
+    max-width: 700px;
+  }
+  
+  /* Flex container for contact options */
+  .contact-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Adjust for smaller screens */
+    gap: 20px; /* Space between options */
+    width: 100%;
+    max-width: 1000px;
+  }
+  
+  /* Each contact option styling */
+  .option {
+    flex: 1;
+    min-width: 250px; /* Prevent collapsing on small screens */
+    max-width: 30%; /* Keep it proportional */
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Add hover effect for better user experience */
+  .option:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Icon styles */
+  .option i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    color: #337ab7;
+  }
+  
+  /* Heading inside each option */
+  .option h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Text inside each option */
+  .option p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Links (email, phone, Facebook) inside the options */
+  .option a {
+    text-decoration: none;
+    color: #337ab7;
+    font-weight: bold;
+  }
+  
+  .option a:hover {
+    color: #23527c;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .contact-options {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .option {
+      max-width: 100%; /* Allow full width for smaller screens */
+      margin-bottom: 20px;
+    }
+  }
+  
