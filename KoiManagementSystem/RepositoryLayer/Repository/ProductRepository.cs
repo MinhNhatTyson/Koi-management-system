@@ -69,6 +69,7 @@ namespace RepositoryLayer.Repository
             {
                 ProductId = productId,
                 Image = product.Image,
+                ProductName = product.ProductName,
                 StockQuantity = product.StockQuantity,
                 Price = product.Price,
                 ProductDescription = product.ProductDescription

@@ -80,3 +80,10 @@ D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\ob
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.pdb
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.genruntimeconfig.cache
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\ref\KoiManagementSystem.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.SqlServer.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
