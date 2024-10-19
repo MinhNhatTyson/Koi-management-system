@@ -1,16 +1,24 @@
 ﻿using BusinessLayer;
 using KoiManagementSystem.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore; // Thêm using cho EntityFrameworkCore
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.Extensions.DependencyInjection;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Repository;
 using ServiceLayer.Interface;
 using ServiceLayer.Service;
 using System.Text;
+using KoiManagementSystem.Controllers.Product.Cart;
+using Microsoft.AspNetCore.Cors.Infrastructure;
+using Newtonsoft.Json;
+using KoiManagementSystem;
+using KoiManagementSystem.Controllers.Product.Order;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Cấu hình Authentication
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -29,94 +37,90 @@ builder.Services.AddAuthentication(options =>
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
-// Add services to the container.
-// Đăng ký DbContext với chuỗi kết nối từ appsettings.json
+
+// Đăng ký DbContext
 builder.Services.AddDbContext<KoiCareContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DBDefault")));
 
-// Đăng ký các controller
-builder.Services.AddControllers();
+// Đăng ký các dịch vụ
 builder.Services.AddScoped<IEmailService>(sp =>
-          new EmailService(
-              smtpHost: "smtp.gmail.com", // Host của dịch vụ SMTP (ví dụ: smtp.gmail.com)
-              smtpPort: 587,               // Port của SMTP (thường là 587 hoặc 465)
-              fromEmail: "bloomgift.info@gmail.com", // Địa chỉ email người gửi
-              smtpUsername: "bloomgift.info@gmail.com",  // Username SMTP
-              smtpPassword: "legnvywfdeiurukn"   // Password SMTP
-          ));
-// Đăng ký Swagger/OpenAPI để dễ dàng kiểm tra API
+    new EmailService(
+        smtpHost: "smtp.gmail.com",
+        smtpPort: 587,
+        fromEmail: "bloomgift.info@gmail.com",
+        smtpUsername: "bloomgift.info@gmail.com",
+        smtpPassword: "legnvywfdeiurukn"
+    ));
+builder.Services.AddControllersWithViews()
+        .AddSessionStateTempDataProvider();
+// Đăng ký Distributed Memory Cache cho Session
+builder.Services.AddDistributedMemoryCache(); // Thêm dòng này
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+
+// Đăng ký Swagger/OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Đăng ký các dịch vụ khác
 builder.Services.AddScoped<IAuthenRepository, AuthenRepository>();
 builder.Services.AddScoped<IAuthenService, AuthenService>();
-
 builder.Services.AddScoped<IKoiFishService, KoiFishService>();
 builder.Services.AddScoped<IKoiGrowthService, KoiGrowthService>();
 builder.Services.AddScoped<IFeedScheduleService, FeedScheduleService>();
-
-
 builder.Services.AddTransient<IKoiFishRepository, KoiFishRepository>();
 builder.Services.AddTransient<IKoiGrowthRepository, KoiGrowthRepository>();
 builder.Services.AddTransient<IFeedScheduleRepository, FeedScheduleRepository>();
-
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IKoiFishRepository, KoiFishRepository>();
-builder.Services.AddScoped<IKoiFishService, KoiFishService>();
-builder.Services.AddScoped<IKoiFishRepository, KoiFishRepository>();
-builder.Services.AddScoped<IKoiFishService, KoiFishService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
+builder.Services.AddScoped<ICartSerivce, CartService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 
-// Cấu hình CORS cho ứng dụng
+
+// Cấu hình CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // URL của ứng dụng React
+        policy.WithOrigins("http://localhost:3000")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAll",
-        builder =>
-        {
-            builder.AllowAnyOrigin()
-                   .AllowAnyMethod()
-                   .AllowAnyHeader();
-        });
-});
 
 builder.Services.AddControllers();
-
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-// Sử dụng Swagger chỉ trong môi trường phát triển
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 
-    //Fill data
+    // Fill data
     using (var scope = app.Services.CreateScope())
     {
-        ;
         var context = scope.ServiceProvider.GetService<KoiCareContext>();
         var dataGenerator = new DataGenerator(context);
         dataGenerator.PopulateDatabase(context);
     }
 }
 
-// Sử dụng HTTPS redirection
 app.UseHttpsRedirection();
 app.UseAuthentication();
-// Kích hoạt CORS
-app.UseCors("AllowReactApp"); // Đừng quên gọi UseCors
-app.UseCors("AllowAll");
+app.UseRouting();
+app.UseCors("AllowReactApp"); // Hoặc "AllowAll"
+app.UseSession(); // Đặt sau UseRouting và trước UseAuthorization
 app.UseAuthorization();
 
 // Map các controller

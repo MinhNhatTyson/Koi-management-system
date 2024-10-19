@@ -37,6 +37,7 @@ namespace KoiManagementSystem.Controllers.Product
             var products = await productService.CreateProduct(productRequest);
             return Ok(products);
         }
+
         [HttpPut("update-product")]
         public async Task<ActionResult<ProductResponse>> UpdateProduct(int productID, [FromBody] ProductRequest productRequest)
         {

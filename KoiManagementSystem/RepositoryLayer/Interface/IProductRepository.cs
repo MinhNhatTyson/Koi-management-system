@@ -13,6 +13,7 @@ namespace RepositoryLayer.Interface
         Task<Product> CreateProduct(Product product);
         Task<Product> DeleteProduct(int productID);
         Task<List<ProductResponse>> GetAllProduct();
+        Task<Product> GetProduct(int productId);
         Task<ProductResponse> GetProductById(int productId);
         Task<ProductResponse> UpdateProduct(ProductResponse product);
     }

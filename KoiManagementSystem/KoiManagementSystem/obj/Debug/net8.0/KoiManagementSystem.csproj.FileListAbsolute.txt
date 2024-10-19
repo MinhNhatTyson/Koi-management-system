@@ -11,13 +11,18 @@ D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bi
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Bogus.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\FluentValidation.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.SqlServer.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
@@ -29,6 +34,8 @@ D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bi
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.OpenApi.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -56,8 +63,8 @@ D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bi
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\RepositoryLayer.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\ServiceLayer.dll
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\BusinessLayer.pdb
-D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\ServiceLayer.pdb
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\RepositoryLayer.pdb
+D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\ServiceLayer.pdb
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.csproj.AssemblyReference.cache
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
 D:\groupProject\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.AssemblyInfoInputs.cache
