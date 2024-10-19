@@ -1,6 +1,6 @@
-﻿using BusinessLayer.Entities;
-using BusinessLayer.Entities;
+﻿
 
+using BusinessLayer.Entities;
 using BusinessLayer.Session;
 using KoiManagementSystem;
 using Microsoft.AspNetCore.Http;
@@ -38,6 +38,7 @@ namespace KoiManagementSystem.Controllers.Product.Cart
         }
         public async Task<CartSession> AddToCart(int userId, int productId ,int quantity)
         {
+            
             User user =await _userRepository.GetUserById(userId);
             if (user == null) { return null; }
             var product = await _productRepository.GetProductById(productId);

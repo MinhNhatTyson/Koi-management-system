@@ -12,6 +12,9 @@ using ServiceLayer.Service;
 using System.Text;
 using KoiManagementSystem.Controllers.Product.Cart;
 using Microsoft.AspNetCore.Cors.Infrastructure;
+using Newtonsoft.Json;
+using KoiManagementSystem;
+using KoiManagementSystem.Controllers.Product.Order;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -74,10 +77,12 @@ builder.Services.AddTransient<IKoiGrowthRepository, KoiGrowthRepository>();
 builder.Services.AddTransient<IFeedScheduleRepository, FeedScheduleRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
-builder.Services.AddScoped<IOrderSerivce, OrderService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
 builder.Services.AddScoped<ICartSerivce, CartService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 
 
 // Cấu hình CORS

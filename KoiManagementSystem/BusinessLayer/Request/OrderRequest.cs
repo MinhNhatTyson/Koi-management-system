@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 namespace BusinessLayer.Request
 {
     public class OrderRequest
-    {
+    { 
+        public string Address {  get; set; }
+        public string Phone { get; set; }
     }
 }

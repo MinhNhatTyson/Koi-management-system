@@ -9527,6 +9527,7 @@
       "Microsoft.AspNetCore.Mvc.ViewFeatures >= 2.2.0",
       "Microsoft.AspNetCore.Session >= 2.2.0",
       "Newtonsoft.Json >= 13.0.3",
+      "RepositoryLayer >= 1.0.0",
       "ServiceLayer >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.IdentityModel.Tokens.Jwt >= 8.1.1"
@@ -9562,6 +9563,9 @@
           "projectReferences": {
             "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj": {
               "projectPath": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj"
+            },
+            "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj"
             },
             "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj": {
               "projectPath": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj"

@@ -56,7 +56,11 @@ namespace RepositoryLayer.Repository
                 }).ToListAsync();
             return product;
         }
-       
+
+        public async Task<Product> GetProduct(int productId)
+        {
+            return  _context.Products.FirstOrDefault(m => m.ProductId == productId);
+        }
 
         public async Task<ProductResponse> GetProductById(int productId)
         {

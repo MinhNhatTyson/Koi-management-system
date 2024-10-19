@@ -1,6 +1,5 @@
 ﻿using BusinessLayer;
 using BusinessLayer.Entities;
-using BusinessLayer.Request;
 using Microsoft.EntityFrameworkCore;
 using RepositoryLayer.Interface;
 using System;
@@ -11,30 +10,27 @@ using System.Threading.Tasks;
 
 namespace RepositoryLayer.Repository
 {
-    public class OrderRepository : IOrderRepository
+    public class OrderItemRepository : IOrderItemRepository
     {
+
         private readonly KoiCareContext _context;
 
-        public OrderRepository(KoiCareContext context)
+        public OrderItemRepository(KoiCareContext context)
         {
             _context = context;
         }
 
-   
-
-        public async Task<Order> AddOrder(Order Order)
+        public async Task<OrderItem> AddOrderItem(OrderItem orderItem)
         {
-  
-            _context.Orders.Add(Order);
+            _context.OrderItems.Add(orderItem);
             _context.SaveChanges();
-            return Order;
+            return orderItem;
         }
 
-        public async Task<List<Order>> GetOrderByUserId(int userId)
+        public async Task<List<OrderItem>> GetOrderItemsByOrderId(int orderId)
         {
-            return await _context.Orders
-                .Where(o => o.UserId == userId)
-                .Include(o => o.OrderItems) 
+            return await _context.OrderItems
+                .Where(oi => oi.OrderId == orderId)
                 .ToListAsync();
         }
     }

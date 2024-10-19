@@ -1,5 +1,4 @@
 ﻿using BusinessLayer.Entities;
-using BusinessLayer.Request;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +7,9 @@ using System.Threading.Tasks;
 
 namespace RepositoryLayer.Interface
 {
-    public interface IOrderRepository
+    public interface IOrderItemRepository
     {
-        Task<Order> AddOrder(Order order);
-
-        Task<List<Order>> GetOrderByUserId(int userId);
+        Task<OrderItem> AddOrderItem(OrderItem orderItem);
+        Task<List<OrderItem>> GetOrderItemsByOrderId(int orderId);
     }
 }
