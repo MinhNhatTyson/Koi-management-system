@@ -1,9 +1,9 @@
 {
   "Version": 1,
-<<<<<<< HEAD
+
   "WorkspaceRootPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\",
   "Documents": [],
-=======
+
   "WorkspaceRootPath": "D:\\groupProject\\Koi-management-system\\KoiManagementSystem\\",
   "Documents": [
     {
@@ -91,7 +91,7 @@
           "SelectedChildIndex": -1,
           "Children": [
             {
-=======
+
           "DockedHeight": 200,
           "SelectedChildIndex": 20,
           "Children": [
@@ -104,7 +104,7 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
->>>>>>> 7e826b7e5f5cf43a79388303d2c606cb0d19d56c
+
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -138,11 +138,11 @@
             },
             {
               "$type": "Bookmark",
-<<<<<<< HEAD
+
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-=======
+
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
->>>>>>> 7e826b7e5f5cf43a79388303d2c606cb0d19d56c
+
             },
             {
               "$type": "Bookmark",
@@ -190,14 +190,14 @@
               "EditorCaption": ""
             },
             {
-<<<<<<< HEAD
+
               "$type": "Bookmark",
               "Name": "ST:16:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
-=======
+
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "OrderResponse.cs",
@@ -417,7 +417,7 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-19T04:47:40.791Z",
               "EditorCaption": ""
->>>>>>> 7e826b7e5f5cf43a79388303d2c606cb0d19d56c
+
             }
           ]
         }
