@@ -18,10 +18,20 @@ using KoiManagementSystem.Controllers.Product.Order;
 
 var builder = WebApplication.CreateBuilder(args);
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 75940fe75b56d1338bf8ee0237045932c9c8d555
 builder.Configuration
     .SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile("default.json", optional: true, reloadOnChange: true);
 
+<<<<<<< HEAD
+=======
+
+// Cấu hình Authentication
+
+>>>>>>> 75940fe75b56d1338bf8ee0237045932c9c8d555
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

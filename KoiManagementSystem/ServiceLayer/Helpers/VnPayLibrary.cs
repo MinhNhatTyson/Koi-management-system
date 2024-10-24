@@ -32,7 +32,7 @@ namespace ServiceLayer.Helpers
             return _responseData.TryGetValue(key, out var retValue) ? retValue : string.Empty;
         }
 
-        #region Request
+        
         public string CreateRequestUrl(string baseUrl, string vnpHashSecret)
         {
             var data = new StringBuilder();
@@ -56,9 +56,8 @@ namespace ServiceLayer.Helpers
 
             return baseUrl;
         }
-        #endregion
+       
 
-        #region Response process
         public bool ValidateSignature(string inputHash, string secretKey)
         {
             var rspRaw = GetResponseData();
@@ -92,7 +91,6 @@ namespace ServiceLayer.Helpers
 
             return data.ToString();
         }
-        #endregion
 
     }
 
