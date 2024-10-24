@@ -11,6 +11,11 @@ using ServiceLayer.Service;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("default.json", optional: true, reloadOnChange: true);
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -55,6 +60,9 @@ builder.Services.AddScoped<IAuthenService, AuthenService>();
 builder.Services.AddScoped<IKoiFishService, KoiFishService>();
 builder.Services.AddScoped<IKoiGrowthService, KoiGrowthService>();
 builder.Services.AddScoped<IFeedScheduleService, FeedScheduleService>();
+
+builder.Services.AddScoped<IVnPayService, VnPayService>();
+builder.Services.AddScoped<IVnPayRepo, VnPayRepo>();
 
 //Dang ky DI
 builder.Services.AddTransient<IKoiFishRepository, KoiFishRepository>();
