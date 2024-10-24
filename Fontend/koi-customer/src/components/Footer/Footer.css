@@ -1,0 +1,102 @@
+/* Footer Container */
+  .footer {
+    padding: 20px 40px;
+    background-color: white;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-right: 200px;
+  }
+  
+  /* Footer Section */
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 10px;
+  }
+  .footer-section p {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 50px;
+  }
+  /* Footer Section Titles */
+  .footer-section h4 {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 45px;
+  }
+  .footer-section h2 {
+    padding-left: 60px;
+    margin-bottom: 45px;
+  }
+  /* Footer Links */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 30px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #8b4513; /* Hover effect */
+  }
+  
+ /* Newsletter Section */
+.newsletter {
+  display: flex;
+}
+
+.newsletter input {
+  padding: 5px; /* Reduced padding */
+  border: 1px solid #e0e0e0;
+  border-radius: 3px;
+  outline: none;
+  font-size: 14px; /* Smaller font size */
+  height: 36px; /* Set a fixed height */
+  flex: 1;
+}
+
+.newsletter button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0 10px; /* Adjusted padding for consistency */
+  margin-left: 5px; /* Reduced margin */
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 14px; /* Smaller font size */
+  height: 47px; /* Set same height as input */
+  margin-top: -0.1px;
+}
+
+.newsletter button:hover {
+  background-color: #8b4513; /* Hover effect */
+}
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .footer-bottom p {
+    padding-left: 50px;
+    text-align: left;
+  }

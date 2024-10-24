@@ -1,0 +1,44 @@
+  .footer-top-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffe5c2; /* Light peach background */
+    margin-top: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .feature-icon {
+    font-size: 40px;
+    color: #8b4513; /* Brown color for icons */
+    margin-right: 15px;
+  }
+  
+  .feature-text h4 {
+    margin: 0;
+    color: #8b4513; /* Brown color for headings */
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .feature-text p {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-top-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .feature-item {
+      margin-bottom: 20px;
+    }
+  }
+  

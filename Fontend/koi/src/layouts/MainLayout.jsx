@@ -10,6 +10,15 @@ const MainLayout = () => {
     return (
         <div>
             <Header />
+            <Header />
+            <style>
+                {`
+                    div.main.d-flex.align-items-center {
+                        width: 1550px;
+                        height: 600px;
+                    }
+                `}
+            </style>
             <div className='main d-flex align-items-center'>
                 <div className='sidebarWrapper'>
                     <Sidebar />

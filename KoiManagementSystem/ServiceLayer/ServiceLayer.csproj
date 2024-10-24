@@ -9,7 +9,12 @@
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
     <PackageReference Include="FluentValidation" Version="11.10.0" />
+<<<<<<< HEAD
     <PackageReference Include="VNPayPackage" Version="2.1.0" />
+=======
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+>>>>>>> 7e826b7e5f5cf43a79388303d2c606cb0d19d56c
   </ItemGroup>
 
   <ItemGroup>
