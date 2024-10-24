@@ -18,14 +18,10 @@ using KoiManagementSystem.Controllers.Product.Order;
 
 var builder = WebApplication.CreateBuilder(args);
 
-<<<<<<< HEAD
 builder.Configuration
     .SetBasePath(Directory.GetCurrentDirectory())
     .AddJsonFile("default.json", optional: true, reloadOnChange: true);
 
-=======
-// Cấu hình Authentication
->>>>>>> 7e826b7e5f5cf43a79388303d2c606cb0d19d56c
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -79,14 +75,13 @@ builder.Services.AddScoped<IAuthenService, AuthenService>();
 builder.Services.AddScoped<IKoiFishService, KoiFishService>();
 builder.Services.AddScoped<IKoiGrowthService, KoiGrowthService>();
 builder.Services.AddScoped<IFeedScheduleService, FeedScheduleService>();
-<<<<<<< HEAD
+
 
 builder.Services.AddScoped<IVnPayService, VnPayService>();
 builder.Services.AddScoped<IVnPayRepo, VnPayRepo>();
 
 //Dang ky DI
-=======
->>>>>>> 7e826b7e5f5cf43a79388303d2c606cb0d19d56c
+
 builder.Services.AddTransient<IKoiFishRepository, KoiFishRepository>();
 builder.Services.AddTransient<IKoiGrowthRepository, KoiGrowthRepository>();
 builder.Services.AddTransient<IFeedScheduleRepository, FeedScheduleRepository>();

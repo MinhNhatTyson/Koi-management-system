@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kE8ychXWWa9rvOMB7vfCmR1ZyoHCiFEjL/hytQF/CXVayhdVnHPRgYHXj08dOH3952a66VnT1juMO5pKhWujaw==",
+  "dgSpecHash": "4n3+v6u9ADK+XcmjblYx98eGwYT+O4U7lCKbXhyGFh5kQA4jq06gipuwkivEPuQBLL3DK7pMR7SNJ/ngYb3dWA==",
   "success": true,
   "projectFilePath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj",
   "expectedPackageFiles": [
@@ -187,12 +187,5 @@
     "C:\\Users\\Admin\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\vnpaypackage\\2.1.0\\vnpaypackage.2.1.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
