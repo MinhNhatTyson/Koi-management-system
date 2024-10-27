@@ -15,7 +15,6 @@ const MainLayout = () => {
                 {`
                     div.main.d-flex.align-items-center {
                         width: 1550px;
-                        height: 600px;
                     }
                 `}
             </style>

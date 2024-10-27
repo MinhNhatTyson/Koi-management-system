@@ -121,7 +121,7 @@ top:-20px;right :-30px;opacity:  0.5;}
 .main .content{width: 80%; flex: 0 0 75% }
 .right-content {padding: 90px 30px;padding-top: 100px;}
 
-.dashboardBoxWrapper{gap: 20px; width: 100%; flex-wrap: wrap;margin-top: 70px;}
+.dashboardBoxWrapper{gap: 20px; width: 100%; flex-wrap: wrap ;}
 .dashboardBoxWrapper .dashboardBox{width: 48%; height: 200px; border-radius: 10px;overflow: hidden;padding: 20px; justify-content: space-around; flex-direction: column; display: flex; flex-direction: column; justify-content: space-around; text-align: left ;position: relative;}
 .dashboardBoxWrapper .dashboardBox .col1 h4{font-size: 19px;font-weight: 700;}
 .dashboardBoxWrapper .dashboardBox .col1 span{font-size: 35px !important;font-weight: bold;line-height:  45px;}
@@ -131,10 +131,12 @@ top:-20px;right :-30px;opacity:  0.5;}
 .dashboardBoxWrapper .dashboardBox .chart{opacity: 0.1;position: absolute;bottom: 20px; left: 20px;}
 .dashboardBoxWrapper .dashboardBox .chart svg{font-size: 150px;color: #000;}
 .dashboardBoxWrapper .dashboardBox .bottomEle{position: relative; top: 25px;}
-.dashboardBoxWrapperRow .box{width: 250%; height: 85.4%;padding: 15px;overflow: hidden;}
-.graphBox{background-image: linear-gradient(#1e50b5,#2a6ff7);border-radius: 10px;padding: 25px;margin-top: 70px;}
-.graphBox .totalPrice h6{font-size: 25px;font-weight: 700; padding-left: 10px;padding-top: 10px;}
+.dashboardBoxWrapperRow .box{width: 250%; height: 100%;padding: 15px;overflow: hidden;}
+.graphBox{background-image: linear-gradient(#1e50b5,#2a6ff7);border-radius: 10px;padding: 25px;}
+.graphBox .totalPrice h6{font-size: 25px;font-weight: 500; padding-left: 10px;padding-top: 10px;}
 .graphBox .totalPrice h3{font-size: 25px;font-weight: 700;margin-top: 20px; padding-left: 10px;}
 .graphBox .totalPrice p{font-size: 13px;color:  #fff;opacity: 0.7; padding-left: 13px;margin-top: 20px;}
 .card{width: 135%;border-radius: 10px;}
 .card .hd {font-size: 18px;font-weight: bold;color: #403e57;}
+.cardFilters .col-md-3 h4{font-size: 18px;font-weight: 800;text-transform: capitalize;color:#403e57;}
+.table .thead-dark{background: #1866ee !important; border-color: rgba(255, 255, 255, 1) !important;}
