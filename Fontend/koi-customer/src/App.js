@@ -6,6 +6,9 @@ import Footer from './components/Footer/Footer';
 // import HomeForm from './components/HomeForm/HomeForm';
 import LoginForm from './components/LoginForm/LoginForm';
 import RegisterForm from './components/RegisterForm/RegisterForm';
+import OurTeam from './components/OurTeam/OurTeam';
+import GetInTouch from './components/GetInTouch/GetInTouch';
+import OurStory from './components/OurStory/OurStory';
 const App = () => {
   return (
     <div className="App">
@@ -13,6 +16,9 @@ const App = () => {
       {/* <HomeForm/>  */}
       {/* <main></main> */}
       <LoginForm/>
+      <OurTeam/>
+      <OurStory/>
+      <GetInTouch/>
       <RegisterForm/>
       {/* <Contact/>
       <FooterTopSection />  */}

@@ -1,0 +1,36 @@
+.our-story-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.text-section {
+    flex: 1;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+
+.text-section h2 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-section p {
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 200%;
+    height: auto;
+    border: 1px solid #ccc; /* Optional: Add a border for styling */
+}
