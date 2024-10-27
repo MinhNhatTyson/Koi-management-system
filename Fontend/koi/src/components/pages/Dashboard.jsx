@@ -3,11 +3,17 @@ import { FaUserCircle } from "react-icons/fa";
 import { FaFish } from "react-icons/fa";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaMoneyBillTrendUp } from "react-icons/fa6";
-import { RiMoneyEuroCircleLine } from "react-icons/ri";
+import { RiMoneyEuroCircleLine, RiTableView } from "react-icons/ri";
 import Button from '@mui/material/Button';
 import { HiOutlineDotsVertical } from "react-icons/hi";
 import { Chart } from "react-google-charts";
+import * as React from 'react';
 
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormHelperText from '@mui/material/FormHelperText';
+import FormControl from '@mui/material/FormControl';
+import Select, { SelectChangeEvent } from '@mui/material/Select';
 
 
 export const data = [
@@ -18,11 +24,15 @@ export const data = [
     ["2016", 1030, 540],
 ];
 export const options = {
-   'backgroundColor' : 'transparent',
-   'chartArea':{'width':'100%','height':'100%','left': '37%'},
-  };
+    'backgroundColor': 'transparent',
+    'chartArea': { 'width': '100%', 'height': '100%', 'left': '37%' },
+};
 
 const Dashboard = () => {
+    const [showBy, setshowBy] = React.useState('');
+
+    const [showBysetCatBy, setCatBy] = React.useState('');
+
     return (
         <>
             <div className="right-content w-100">
@@ -65,6 +75,99 @@ const Dashboard = () => {
                     <h3 className="hd">All Products</h3>
 
 
+                    <div className="row cardFilters mt-3">
+                        <div className="col-md-3">
+                            <h4>SHOW BY</h4>
+                            <FormControl size="small" className="w-100">
+                                <InputLabel id="demo-simple-select-helper-label">Name</InputLabel>
+                                <Select
+                                    labelId="demo-simple-select-helper-label"
+                                    id="demo-simple-select-helper"
+                                    value={showBy}
+                                    label="Age"
+                                    onChange={(e) => setshowBy(e.target.value)}
+
+                                >
+                                    <MenuItem value="">
+                                        <em>None</em>
+                                    </MenuItem>
+                                    <MenuItem value={10}>Ten</MenuItem>
+                                    <MenuItem value={20}>Twenty</MenuItem>
+                                    <MenuItem value={30}>Thirty</MenuItem>
+                                </Select>
+                            </FormControl>
+                        </div>
+
+                        <div className="col-md-3">
+                            <h4>CATEGORY BY</h4>
+                            <FormControl size="small" className="w-100">
+                                <InputLabel id="demo-simple-select-helper-label">Category</InputLabel>
+
+                                <Select
+                                    labelId="demo-simple-select-helper-label"
+                                    id="demo-simple-select-helper"
+                                    value={showBysetCatBy}
+                                    onChange={(e) => setCatBy(e.target.value)}
+
+                                >
+                                    <MenuItem value="">
+                                        <em>None</em>
+                                    </MenuItem>
+                                    <MenuItem value={10}>Ten</MenuItem>
+                                    <MenuItem value={20}>Twenty</MenuItem>
+                                    <MenuItem value={30}>Thirty</MenuItem>
+                                </Select>
+                            </FormControl>
+                        </div>
+
+
+
+                    </div>
+
+                    <div className="table-responsive mt-3">
+                        <table className="table table-bordered">
+                            <thead className="thead-dark">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>NAME</th>
+                                    <th>PRICE</th>
+                                    <th>QUANTITY</th>
+                                    <th>IMAGE</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>awa</td>
+                                    <td>Product Name</td>
+                                    <td>$10</td>
+                                    <td>5</td>
+                                    <td><img src="image-url" alt="Product" width="50" /></td>
+                                </tr>
+
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>awa</td>
+                                    <td>Product Name</td>
+                                    <td>$10</td>
+                                    <td>5</td>
+                                    <td><img src="image-url" alt="Product" width="50" /></td>
+                                </tr>
+
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>awa</td>
+                                    <td>Product Name</td>
+                                    <td>$10</td>
+                                    <td>5</td>
+                                    <td><img src="image-url" alt="Product" width="50" /></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </div>
         </>
