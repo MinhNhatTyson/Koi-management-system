@@ -1,0 +1,79 @@
+  .our-team {
+    text-align: center;
+    background-color: #ffe5c2; /* Light peach background */
+    margin-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .our-team h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .our-team p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #666;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .team-member {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 360px; /* Set a fixed height to align items */
+    justify-content: space-between; /* Distribute space between items */
+  }
+  
+  .member-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .team-member .title {
+    font-weight: bold;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .team-member .description {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: auto; /* Pushes the social icons to the bottom */
+  }
+  .social-icons a {
+    color: #555;
+    font-size: 1.5em;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #000;
+  }
+  
