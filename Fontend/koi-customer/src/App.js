@@ -9,6 +9,9 @@ import RegisterForm from './components/RegisterForm/RegisterForm';
 import OurTeam from './components/OurTeam/OurTeam';
 import GetInTouch from './components/GetInTouch/GetInTouch';
 import OurStory from './components/OurStory/OurStory';
+import CheckOutForm from './components/CheckOutForm/CheckOutForm';
+import CartForm from './components/CartForm/CartForm';
+import ProductDetailForm from './components/ProductDetailForm/ProductDetailForm';
 const App = () => {
   return (
     <div className="App">
@@ -19,6 +22,9 @@ const App = () => {
       <OurTeam/>
       <OurStory/>
       <GetInTouch/>
+      <CartForm/>
+      <ProductDetailForm/>
+      <CheckOutForm/>
       <RegisterForm/>
       {/* <Contact/>
       <FooterTopSection />  */}
