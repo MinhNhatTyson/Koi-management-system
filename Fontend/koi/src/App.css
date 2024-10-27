@@ -138,5 +138,15 @@ top:-20px;right :-30px;opacity:  0.5;}
 .graphBox .totalPrice p{font-size: 13px;color:  #fff;opacity: 0.7; padding-left: 13px;margin-top: 20px;}
 .card{width: 135%;border-radius: 10px;}
 .card .hd {font-size: 18px;font-weight: bold;color: #403e57;}
-.cardFilters .col-md-3 h4{font-size: 18px;font-weight: 800;text-transform: capitalize;color:#403e57;}
-.table .thead-dark{background: #1866ee !important; border-color: rgba(255, 255, 255, 1) !important;}
+.cardFilters .col-md-3 h4{font-size: 18px;font-weight: 800;text-transform: capitalize;color: #000;;}
+
+h1, h2 ,h3 ,h4,h5,h6{color: #403e57;}
+.table .thead-dark th{background: #1866ee !important; border-color: rgba(255, 255, 255, 1) !important;color: #fff;}
+.table tbody td{font-size: 13px !important;color: #403e57; font-weight: 500;}
+.table tbody .actions button{min-width: 32px !important;width: 32px !important;height: 32px !important;margin: 0px 3px !important;}
+.table tbody .actions button.secondary{background: rgba(203, 60, 231, 0.1)}
+.table tbody .actions button.success{background: rgba(26  , 159, 83 , 0.1);}
+.table tbody .actions button.error{background: rgba(241, 17, 51, 0.1);}
+
+.table tbody .actions button svg{font-size:  32px !important;}
+.table .v-algin td{vertical-align: middle !important;}
