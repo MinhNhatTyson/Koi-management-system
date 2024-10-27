@@ -9,11 +9,18 @@ import { HiOutlineDotsVertical } from "react-icons/hi";
 import { Chart } from "react-google-charts";
 import * as React from 'react';
 
+
+
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormHelperText from '@mui/material/FormHelperText';
 import FormControl from '@mui/material/FormControl';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
+import { FaPencilAlt } from "react-icons/fa";
+
+import { MdDelete } from "react-icons/md";
+
+import { FaEye } from "react-icons/fa";
 
 
 export const data = [
@@ -125,47 +132,39 @@ const Dashboard = () => {
                     </div>
 
                     <div className="table-responsive mt-3">
-                        <table className="table table-bordered">
+                        <table className="table table-bordered v-algin">
                             <thead className="thead-dark">
                                 <tr>
                                     <th>ID</th>
                                     <th>NAME</th>
+                                    <th>DESCRIPTION</th>
                                     <th>PRICE</th>
                                     <th>QUANTITY</th>
                                     <th>IMAGE</th>
+                                    <th>ACTION</th>
                                 </tr>
                             </thead>
 
                             <tbody>
                                 <tr>
-                                    <td>awa</td>
+                                    <td>1</td>
                                     <td>Product Name</td>
+                                    <td>mô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tả</td>
                                     <td>$10</td>
                                     <td>5</td>
-                                    <td><img src="image-url" alt="Product" width="50" /></td>
+                                    <td><img src="https://th.bing.com/th/id/OIP.jQv8BF5WmbcjvUfga8g_WwHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product" width="50" /></td>
+                                    <td>
+                                        <div className="actions d-flex algin-items-center">
+                                            <Button className="secondary" color="secondary"><FaEye/></Button>
+                                            <Button className="success"  color="success"><FaPencilAlt/></Button>
+                                            <Button className="error" color="error"><MdDelete/></Button>
+                                        </div>
+                                    </td>
+
                                 </tr>
 
                             </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>awa</td>
-                                    <td>Product Name</td>
-                                    <td>$10</td>
-                                    <td>5</td>
-                                    <td><img src="image-url" alt="Product" width="50" /></td>
-                                </tr>
-
-                            </tbody>
-                            <tbody>
-                                <tr>
-                                    <td>awa</td>
-                                    <td>Product Name</td>
-                                    <td>$10</td>
-                                    <td>5</td>
-                                    <td><img src="image-url" alt="Product" width="50" /></td>
-                                </tr>
-
-                            </tbody>
+                         
                         </table>
                     </div>
                 </div>
