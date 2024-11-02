@@ -7,7 +7,7 @@
   }
   
   /* Container for the content to ensure centralized layout */
-  .container {
+  .contact .container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,24 +18,23 @@
   }
   
   /* Heading styles */
-  h1 {
+  .contact h1 {
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    color: #333;
+    color: #F28C28;
     text-align: center;
   }
   
   /* Paragraph for description */
-  p {
-    font-size: 1.2rem;
+  .contact p {
+    font-size: 1.5rem;
     margin-bottom: 2.5rem;
-    color: #555;
+    color: black;
     text-align: center;
     max-width: 700px;
   }
   
   /* Flex container for contact options */
-  .contact-options {
+  .contact .contact-options {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap; /* Adjust for smaller screens */
@@ -45,7 +44,7 @@
   }
   
   /* Each contact option styling */
-  .option {
+  .contact .option {
     flex: 1;
     min-width: 250px; /* Prevent collapsing on small screens */
     max-width: 30%; /* Keep it proportional */
@@ -60,50 +59,50 @@
   }
   
   /* Add hover effect for better user experience */
-  .option:hover {
+  .contact .option:hover {
     transform: translateY(-10px);
   }
   
   /* Icon styles */
-  .option i {
+  .contact .option i {
     font-size: 3rem;
     margin-bottom: 15px;
-    color: #337ab7;
+    color: #FF5F1F;
   }
   
   /* Heading inside each option */
-  .option h2 {
+  .contact .option h2 {
     font-size: 1.5rem;
     margin-bottom: 15px;
     color: #333;
   }
   
   /* Text inside each option */
-  .option p {
+  .contact .option p {
     font-size: 1rem;
     margin-bottom: 20px;
     color: #666;
   }
   
   /* Links (email, phone, Facebook) inside the options */
-  .option a {
+  .contact .option a {
     text-decoration: none;
-    color: #337ab7;
+    color: #FF5F1F;
     font-weight: bold;
   }
   
-  .option a:hover {
+  .contact .option a:hover {
     color: #23527c;
   }
   
   /* Media query for responsiveness */
   @media (max-width: 768px) {
-    .contact-options {
+    .contact .contact-options {
       flex-direction: column;
       align-items: center;
     }
   
-    .option {
+    .contact .option {
       max-width: 100%; /* Allow full width for smaller screens */
       margin-bottom: 20px;
     }
