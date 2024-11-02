@@ -6,7 +6,7 @@ import '../App.css';
 
 export const MyContext = createContext();
 
-const MainLayout = () => {
+const OrderLayout = () => {
     const [isToggleSidebar, setIsToggleSidebar] = useState(false);
 
     const values = {
@@ -65,4 +65,4 @@ const MainLayout = () => {
     );
 };
 
-export default MainLayout;
+export default OrderLayout;

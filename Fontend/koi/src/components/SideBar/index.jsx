@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Button from '@mui/material/Button';
 import { MdDashboard } from "react-icons/md";
 import { FaShoppingCart, FaChevronRight } from "react-icons/fa";
@@ -7,10 +7,13 @@ import { FaBell } from "react-icons/fa";
 import { IoIosSettings } from "react-icons/io";
 import { Link } from 'react-router-dom';
 import { RiLogoutBoxFill } from "react-icons/ri";
+import { MyContext } from '../../layouts/MainLayout';
 
 const Sidebar = () => {
     const [activeTab, setActiveTab] = useState(null);
     const [isToggleSubmenu, setIsToggleSubmenu] = useState(false);
+
+    const context = useContext(MyContext)
     const isOpenSubMenu = (index) => {
         setActiveTab(index);
         setIsToggleSubmenu(!isToggleSubmenu);
@@ -21,7 +24,7 @@ const Sidebar = () => {
         <div className='sidebar'>
             <ul>
                 <li>
-                    <Link to="/">
+                    <Link to="/dashboard">
                         <Button className='w-100'>
                             <span className='icon'><MdDashboard /></span>
                             Dashboard
@@ -43,16 +46,15 @@ const Sidebar = () => {
                     <div className={`submenuWrapper ${activeTab === 1 && isToggleSubmenu=== true ? 'collapse' : 'collapsed'}`}>
                         <div className='submenu'>
                             <ul>
-                                <li><Link to="#">Product List</Link></li>
-                                <li><Link to="#">Product View</Link></li>
-                                <li><Link to="#">Product Upload</Link></li>
+                                <li><Link to="/dashboard">Product List</Link></li>
+                                <li><Link to="/product-upload">Product Upload</Link></li>
                             </ul>
                         </div>
                     </div>
                 </li>
 
                 <li>
-                    <Link to="/">
+                    <Link to="/order">
                         <Button className='w-100'>
                             <span className='icon'><FaShoppingCart /></span>
                             Orders
@@ -62,20 +64,24 @@ const Sidebar = () => {
                 </li>
 
                 <li>
+                <Link to="/notification">
                     <Button className='w-100'>
                         <span className='icon'><FaBell /></span>
                         Notification
                         <span className='arrow'><FaChevronRight /></span>
                     </Button>
+                    </Link>
                 </li>
 
 
                 <li>
+                <Link to="/setting">
                     <Button className='w-100'>
                         <span className='icon'><IoIosSettings /></span>
                         Setting
                         <span className='arrow'><FaChevronRight /></span>
                     </Button>
+                    </Link>
                 </li>
             </ul>
 
