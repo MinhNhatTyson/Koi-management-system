@@ -30,16 +30,7 @@ const teamMembers = [
     email: '#',
     website: '#',
     // image: 'path/to/jane_image.png',
-  },
-  {
-    name: 'Mike Johnson',
-    title: 'Lead Developer',
-    description: 'Mike is the technical genius behind our platform.',
-    linkedin: '#',
-    email: '#',
-    website: '#',
-    // image: 'path/to/jane_image.png',
-  },
+  }
   // Add other team members similarly...
 ];
 
@@ -47,7 +38,7 @@ const OurTeam = () => {
   return (
     <section className="our-team">
       <h2>Meet Our Team</h2>
-      <p>Get to know the talented individuals behind Gift4U.</p>
+      <h4>Get to know the talented individuals behind Koi System.</h4>
       <div className="team-container">
         {teamMembers.map((member, index) => (
           <div className="team-member" key={index}>

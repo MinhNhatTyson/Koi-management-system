@@ -1,148 +1,73 @@
-.register-form {
-    display: flex; /* Flex layout to align children side by side */
-    height: 85vh; /* Full viewport height */
-    overflow: hidden; /* Prevent overflow */
-    margin-top: 100px;
-}
-
-/* Left section for background image */
-.left {
-    flex: 3; /* Allow left section to take up remaining space */
+.register-form .form-container {
     display: flex;
-    justify-content: center; /* Centering the image */
-    align-items: center; /* Centering vertically */
-    background-color: #fff; /* Fallback color */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
-/* Background image for left section */
-.image {
-    width: 100%;
-    height: 100%;
-    background-image: url('https://treatboxuk.com/cdn/shop/files/mini-just-for-you-treatbox.jpg?v=1715605494');
-    background-size: cover; /* Cover the entire area */
-    background-position: center; /* Center the image */
+.register-form .form-image {
+    width: 40%; /* Adjust as needed */
+    overflow: hidden; /* Hide overflow if needed */
+    display: flex; /* Center image vertically */
 }
 
-/* Right section for login form */
-.right {
-    flex: 2; /* Allow right section to take up remaining space */
-    background-color: #ffe5c2; /* Form background color */
-    padding: 4rem; /* Padding for spacing */
-    display: flex;
-    flex-direction: column; /* Align items vertically */
-    justify-content: center; /* Center the form vertically */
-    align-items: flex-start; /* Align items to the left */
-    text-align: left; /* Left align text */
-    max-height: 100vh; /* Set max height to viewport height */
-    overflow-y: auto; /* Allow vertical scrolling if content overflows */
-    padding-left: 150px;
+.register-form .register-form .form-image img {
+    height: 100%; /* Make the image fill the container height */
+    width: auto; /* Keep aspect ratio */
+    object-fit: cover; /* Cover the entire area */
 }
 
-/* Form styles */
-h1 {
-    font-size: 2rem; /* Heading size */
-    margin-bottom: 1.5rem; /* Spacing below heading */
+.register-form .register-form .form-content {
+    padding: 20px;
+    background-color: white;
+    flex: 1; /* Allow the content section to take up equal space */
 }
 
-.pdes {
-    margin: -15px 0 40px 0; /* Adjust margin for description */
+.register-form .form-group {
+    margin-bottom: 15px;
 }
 
-.error-message {
-    color: red; /* Error message color */
-    margin-bottom: 1rem; /* Space below error message */
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-.form-group {
-    margin-bottom: 1.5rem; /* Space between form fields */
-    width: 100%; /* Full width */
+.register-form input {
+    width: 140%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.input-field {
-    width: 150%; /* Full width for responsive design */
-    max-width: 350px; /* Maximum width */
-    padding: 0.75rem; /* Padding inside input */
-    background-color: #ffe5c2; /* Background color for inputs */
-    border: 1px solid #ccc; /* Border styling */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 1rem; /* Font size */
+.register-form button {
+    width: 140%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
 }
 
-/* Container for button and forgot password link */
-.form-actions {
-    display: flex; /* Use flex for horizontal alignment */
-    justify-content: center; /* Center the button */
-    align-items: center; /* Align items vertically */
-    width: 100%; /* Full width */
-    margin-top: 1rem; /* Spacing above the actions */
+.register-form button:hover {
+    background-color: #0056b3;
 }
 
-/* Button styling */
-.register-btn {
-    background-color: red; /* Button color */
-    color: white; /* Text color */
-    padding: 0.75rem; /* Button padding */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 1rem; /* Font size */
-    width: 375px;
-    text-align: center; /* Center text in button */
+.register-form p {
+    margin-left: 150px;
+    font-size: 18px;
+    margin-top: 10px;
 }
 
-.register-btn:hover {
-    background-color: blue; /* Change color on hover */
+.register-form a {
+    color: #007bff;
+    text-decoration: none;
 }
 
-/* Google Sign Up Button */
-.google-btn {
-    display: flex; /* Flex to align icon and text */
-    align-items: center; /* Center vertically */
-    justify-content: center; /* Center horizontally */
-    background-color: #ffe5c2; /* Google background color */
-    color: black; /* Text color */
-    padding: 0.75rem; /* Padding */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 1rem; /* Font size */
-    width: 375px; /* Set to the same width as register button */
-    margin-top: 1rem; /* Space above */
-    border: 1px solid #ccc; /* Border styling */
-    text-align: center; /* Center text */
-}
-
-.google-icon {
-    margin-right: 0.5rem; /* Space between icon and text */
-    color: red;
-}
-
-/* Existing User Prompt */
-.already-have-account {
-    margin-top: 1rem; /* Space above */
-    color: gray; /* Text color */
-    text-align: center; /* Center the text */
-    width: 70%; /* Full width to allow centering */
-}
-
-.login-link {
-    color: black; /* Link color */
-    cursor: pointer; /* Pointer cursor on hover */
-    margin-left: 15px; /* Margin to separate from the text */
-    position: relative; /* Needed for positioning the pseudo-element */
-}
-
-.login-link::after {
-    content: ''; /* Empty content for the line */
-    display: block; /* Make it a block element */
-    width: 100%; /* Full width */
-    height: 2px; /* Height of the underline */
-    background-color: black; /* Color of the underline */
-    margin-top: 2px; /* Space between text and underline */
-    position: absolute; /* Position relative to the link */
-    left: 0; /* Align with the left edge of the link */
-    bottom: -4px; /* Adjust vertical position if needed */
-}
-
-.login-link:hover {
-    text-decoration: underline; /* Underline on hover */
+.register-form a:hover {
+    text-decoration: underline;
 }

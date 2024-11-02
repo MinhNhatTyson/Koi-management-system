@@ -1,0 +1,72 @@
+/* General layout for the blog container */
+.blog-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+/* Style for each blog item */
+.blog-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 15px;
+    gap: 20px;
+}
+
+/* Style for image in the blog item */
+.blog-item img {
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Blog content container */
+.blog-content {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Blog title styling */
+.blog-container .blog-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Blog description styling */
+.blog-container .blog-description {
+    font-size: 23px;
+    color: #666;
+    text-align: left;
+}
+
+/* Blog date and link styling */
+.blog-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #666;
+}
+
+.blog-footer .date {
+    color: #999;
+    font-size: 20px;
+}
+
+.blog-footer .info-link {
+    color: #00aa00;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.blog-footer .info-link:hover {
+    text-decoration: underline;
+}
