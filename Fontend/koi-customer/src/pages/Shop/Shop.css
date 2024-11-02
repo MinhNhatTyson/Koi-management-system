@@ -1,0 +1,18 @@
+.main-layout {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f4f8; /* Optional background for layout */
+  }
+  
+  .filter-panel {
+    flex: 0 0 250px; /* Fixed width for the filter panel */
+  }
+  
+  .product-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
