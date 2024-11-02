@@ -34,7 +34,8 @@
     margin-bottom: 45px;
   }
   .footer-section h2 {
-    padding-left: 60px;
+    color: #F28C28;
+    padding-left: 50px;
     margin-bottom: 45px;
   }
   /* Footer Links */
@@ -64,6 +65,7 @@
 }
 
 .newsletter input {
+  width: 300px;
   padding: 5px; /* Reduced padding */
   border: 1px solid #e0e0e0;
   border-radius: 3px;
@@ -74,7 +76,7 @@
 }
 
 .newsletter button {
-  background-color: black;
+  background-color: #FF5F1F;
   color: white;
   border: none;
   padding: 0 10px; /* Adjusted padding for consistency */

@@ -1,22 +1,44 @@
 import React from 'react';
 import './Header.css';
 import { FaUser, FaHeart, FaShoppingCart } from 'react-icons/fa'; // Font Awesome Icons
+import { NavLink, useNavigate } from 'react-router-dom'; // Import NavLink
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <header className="header">
       {/* Logo */}
       <div className="logo">
-        <h1>Gift4U</h1>
+        <h1>Koi System</h1>
       </div>
-
       {/* Navigation Links */}
       <nav className="nav">
         <ul className="nav-list">
-          <li><a href="/" className="active">Home</a></li>
-          <li><a href="/shop">Shop</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li>
+            <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/blog" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Blog
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/shop" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Shop
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>
+              About
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Contact
+            </NavLink>
+          </li>
         </ul>
       </nav>
 
@@ -25,6 +47,12 @@ const Header = () => {
         <FaUser className="icon" />
         <FaHeart className="icon" />
         <FaShoppingCart className="icon" />
+        <button className="auth-button" onClick={() => navigate('/login')}>
+          Login
+        </button>
+        <button className="auth-button" onClick={() => navigate('/register')}>
+          Register
+        </button>
       </div>
     </header>
   );

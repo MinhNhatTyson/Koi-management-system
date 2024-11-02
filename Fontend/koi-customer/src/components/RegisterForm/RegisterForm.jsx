@@ -1,87 +1,62 @@
 import React, { useState } from 'react';
 import './RegisterForm.css';
-import { FaGoogle } from 'react-icons/fa'; // Import Google icon from react-icons
 
-function RegisterForm() {
-  const [name, setName] = useState('');
+const RegisterForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Prevent default form submission
-    // Handle form submission logic here
-    if (!email || !password) {
-      setErrorMessage('Please fill in all fields');
-    } else {
-      setErrorMessage(''); // Clear error message
-      console.log('Email:', email, 'Password:', password);
-    }
+      e.preventDefault();
+      // Handle registration logic here
   };
 
   return (
-    <div className='register-form'>
-      {/* Left Section: Image */}
-      <div className="left">
-        <div className="image"></div>
+    <div className="register-form">
+      <div className="form-container">
+          <div className="form-image">
+              <img src="https://i.pinimg.com/236x/39/b7/ae/39b7ae683e505d9b905d10b57d044dbf.jpg" alt="Register" />
+          </div>
+          <div className="form-content">
+              <form onSubmit={handleSubmit}>
+                  <h2>Register</h2>
+                  <div className="form-group">
+                      <label htmlFor="register-email">Email</label>
+                      <input
+                          type="email"
+                          id="register-email"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
+                          required
+                      />
+                  </div>
+                  <div className="form-group">
+                      <label htmlFor="register-password">Password</label>
+                      <input
+                          type="password"
+                          id="register-password"
+                          value={password}
+                          onChange={(e) => setPassword(e.target.value)}
+                          required
+                      />
+                  </div>
+                  <div className="form-group">
+                      <label htmlFor="register-confirm-password">Confirm Password</label>
+                      <input
+                          type="password"
+                          id="register-confirm-password"
+                          value={confirmPassword}
+                          onChange={(e) => setConfirmPassword(e.target.value)}
+                          required
+                      />
+                  </div>
+                  <button type="submit">Register</button>
+                  <p>Already have an account? <a href="#login">Login</a></p>
+              </form>
+          </div>
       </div>
-
-      {/* Right Section: Register Form */}
-      <div className="right">
-        <h1>Create an account</h1>
-        <p className="pdes">Enter your details below</p>
-        {errorMessage && <p className="error-message">{errorMessage}</p>}
-        <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <input 
-              type="text" 
-              id="name" 
-              className="input-field" 
-              placeholder="Name" 
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-              required 
-            />
-          </div>
-          <div className="form-group">
-            <input 
-              type="text" 
-              id="email" 
-              className="input-field" 
-              placeholder="Email Or Phone Number" 
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              required 
-            />
-          </div>
-          <div className="form-group">
-            <input 
-              type="password" 
-              id="password" 
-              className="input-field" 
-              placeholder="Password" 
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              required 
-            />
-          </div>
-
-          <div className="form-actions">
-            <button type="submit" className="register-btn">Create Account</button>
-          </div>
-        </form>
-
-        {/* Sign Up with Google Button */}
-        <button className="google-btn">
-          <FaGoogle className="google-icon" />
-          Sign Up with Google
-        </button>
-
-        {/* Existing User Prompt */}
-        <p className="already-have-account">Already have an account?<span className="login-link">Log in</span></p>
       </div>
-    </div>
   );
-}
+};
 
 export default RegisterForm;

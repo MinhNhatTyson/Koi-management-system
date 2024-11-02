@@ -1,0 +1,96 @@
+.blog-introduction {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: url('https://images.pexels.com/photos/2131846/pexels-photo-2131846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+    background-size: cover;
+    padding: 90px;
+}
+
+.left-section {
+    flex: 1;
+    text-align: center;
+}
+
+.intro-image {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    height: 550px;
+}
+
+.left-section h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+.right-section {
+    position: relative;
+    flex: 1;
+    background: rgba(0, 0, 0, 0.7); /* Dark background with transparency */
+    color: white;
+    height: 550px;
+}
+
+.right-section h2 {
+    color: #F28C28;
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    border-bottom: 3px solid transparent; /* Fallback in case gradient isn't supported */
+    background: linear-gradient(to right, transparent 30px,#F28C28 30px, #F28C28 100px, rgba(255, 255, 255, 0.2) 100px, rgba(255, 255, 255, 0.2) 670px,transparent 670px,transparent 710px);
+    background-position: bottom; /* Positions gradient at the bottom */
+    background-repeat: no-repeat;
+    background-size: 100% 3px; /* Makes the "border" the height of 3px */
+}
+
+.right-section ul {
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.right-section li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.right-section .news-title {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.right-section .news-date {
+    font-size: 20px;
+    color: #d3d3d3;
+}
+
+.right-section .load-more {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    color: #d3d3d3;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.load-more i {
+    margin-right: 8px; /* Space between icon and text */
+    padding: 4px; /* Space inside the border */
+    border: 2px solid #3a3a3a; /* Border color and width */
+    color: #3a3a3a; /* Icon color */
+    background: rgba(0, 0, 0, 0.7); /* Background color inside the border */
+}
+.load-more:hover {
+    color: white;
+    background: #F28C28;
+}

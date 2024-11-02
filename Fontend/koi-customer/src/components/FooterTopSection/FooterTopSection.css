@@ -1,7 +1,7 @@
   .footer-top-section {
     display: flex;
     justify-content: space-around;
-    background-color: #ffe5c2; /* Light peach background */
+    background-color: #FF5F1F; /* Light peach background */
     margin-top: 20px;
     padding-top: 80px;
     padding-bottom: 80px;
@@ -15,18 +15,19 @@
   
   .feature-icon {
     font-size: 40px;
-    color: #8b4513; /* Brown color for icons */
+    color: white; /* Brown color for icons */
     margin-right: 15px;
   }
   
   .feature-text h4 {
     margin: 0;
-    color: #8b4513; /* Brown color for headings */
+    color: white; /* Brown color for headings */
     font-weight: bold;
     font-size: 25px;
   }
   
   .feature-text p {
+    color: black;
     margin: 0;
     font-size: 20px;
   }

@@ -10,6 +10,7 @@
   
   /* Logo */
   .logo h1 {
+    color: #F28C28;
     padding-left: 50px;
     font-family: 'Arial', sans-serif;
     font-size: 30px;
@@ -49,7 +50,6 @@
   }
   
   .icons .icon {
-    font-size: 25px;
     margin-left: 20px;
     color: black;
     cursor: pointer;
@@ -62,3 +62,19 @@
     color: #8b4513; /* Brown color on hover */
   }
   
+  .auth-button {
+    background-color: white;
+    color: #F28C28; /* Brown color for text */
+    border: 2px solid #F28C28; /* Border color */
+    border-radius: 50px; /* Makes the button round */
+    padding: 10px 20px; /* Adds padding for a rounded shape */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 10px; /* Adds space between buttons */
+  }
+  
+  .auth-button:hover {
+    background-color: #8b4513; /* Changes background on hover */
+    color: white; /* Changes text color on hover */
+  }

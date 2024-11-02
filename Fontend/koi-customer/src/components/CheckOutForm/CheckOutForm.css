@@ -80,7 +80,10 @@
   .payment-method {
     margin-bottom: 15px;
   }
-  
+  .payment-method p{
+    margin-bottom: 15px;
+    text-align: left;
+  }
   .payment-method label {
     display: block;
     margin-bottom: 5px;
