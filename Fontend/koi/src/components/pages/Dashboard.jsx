@@ -164,6 +164,82 @@ const Dashboard = () => {
                                 </tr>
 
                             </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Product Name</td>
+                                    <td>mô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tả</td>
+                                    <td>$10</td>
+                                    <td>5</td>
+                                    <td><img src="https://th.bing.com/th/id/OIP.jQv8BF5WmbcjvUfga8g_WwHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product" width="50" /></td>
+                                    <td>
+                                        <div className="actions d-flex algin-items-center">
+                                            <Button className="secondary" color="secondary"><FaEye/></Button>
+                                            <Button className="success"  color="success"><FaPencilAlt/></Button>
+                                            <Button className="error" color="error"><MdDelete/></Button>
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Product Name</td>
+                                    <td>mô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tả</td>
+                                    <td>$10</td>
+                                    <td>5</td>
+                                    <td><img src="https://th.bing.com/th/id/OIP.jQv8BF5WmbcjvUfga8g_WwHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product" width="50" /></td>
+                                    <td>
+                                        <div className="actions d-flex algin-items-center">
+                                            <Button className="secondary" color="secondary"><FaEye/></Button>
+                                            <Button className="success"  color="success"><FaPencilAlt/></Button>
+                                            <Button className="error" color="error"><MdDelete/></Button>
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Product Name</td>
+                                    <td>mô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tả</td>
+                                    <td>$10</td>
+                                    <td>5</td>
+                                    <td><img src="https://th.bing.com/th/id/OIP.jQv8BF5WmbcjvUfga8g_WwHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product" width="50" /></td>
+                                    <td>
+                                        <div className="actions d-flex algin-items-center">
+                                            <Button className="secondary" color="secondary"><FaEye/></Button>
+                                            <Button className="success"  color="success"><FaPencilAlt/></Button>
+                                            <Button className="error" color="error"><MdDelete/></Button>
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Product Name</td>
+                                    <td>mô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tảmô tả</td>
+                                    <td>$10</td>
+                                    <td>5</td>
+                                    <td><img src="https://th.bing.com/th/id/OIP.jQv8BF5WmbcjvUfga8g_WwHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Product" width="50" /></td>
+                                    <td>
+                                        <div className="actions d-flex algin-items-center">
+                                            <Button className="secondary" color="secondary"><FaEye/></Button>
+                                            <Button className="success"  color="success"><FaPencilAlt/></Button>
+                                            <Button className="error" color="error"><MdDelete/></Button>
+                                        </div>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
                          
                         </table>
                     </div>
