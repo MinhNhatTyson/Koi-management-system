@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { FaUser, FaHeart, FaShoppingCart } from 'react-icons/fa'; // Font Awesome Icons
+import { FaUser, FaHistory , FaShoppingCart } from 'react-icons/fa'; // Font Awesome Icons
 import { NavLink, useNavigate } from 'react-router-dom'; // Import NavLink
 
 const Header = () => {
@@ -45,8 +45,8 @@ const Header = () => {
       {/* Icons */}
       <div className="icons">
         <FaUser className="icon" />
-        <FaHeart className="icon" />
         <FaShoppingCart className="icon" />
+        <FaHistory className="icon"/>
         <button className="auth-button" onClick={() => navigate('/login')}>
           Login
         </button>

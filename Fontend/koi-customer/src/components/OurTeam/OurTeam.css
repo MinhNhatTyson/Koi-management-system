@@ -1,6 +1,6 @@
   .our-team {
     background-color: #FF5F1F; /* Light peach background */
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     padding-top: 10px;
   }
   
@@ -32,7 +32,10 @@
     flex-direction: column; /* Stack elements vertically */
     background-color: #fff;
     border-radius: 10px;
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: 200px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
