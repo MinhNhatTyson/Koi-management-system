@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Button, Card, CardContent, TextField, Typography, Stack } from '@mui/material';
+import { Box, Button, Card, CardContent, TextField, Typography, Stack, Snackbar, Alert } from '@mui/material';
 
 const UploadProduct = () => {
     const [productName, setProductName] = useState('');
@@ -7,10 +7,71 @@ const UploadProduct = () => {
     const [description, setDescription] = useState('');
     const [quantity, setQuantity] = useState('');
     const [image, setImage] = useState(null);
+    const [imageBase64, setImageBase64] = useState('');
+    const [openSnackbar, setOpenSnackbar] = useState(false); // Snackbar open state
+    const [snackbarMessage, setSnackbarMessage] = useState(''); // Snackbar message
 
-    const handleUpload = () => {
-        // Xử lý upload sản phẩm
-        console.log('Product uploaded:', { productName, price, description, quantity, image });
+    const handleImageChange = (e) => {
+        const file = e.target.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onloadend = () => {
+                setImageBase64(reader.result); // Set the Base64 string
+            };
+            reader.readAsDataURL(file); // Read the file as a data URL
+            setImage(file); // Optionally store the file for any other use
+        }
+    };
+
+    const handleUpload = async () => {
+        const payload = {
+            productName,
+            productDescription: description,
+            price: parseFloat(price), // Ensure price is a number
+            stockQuantity: parseInt(quantity), // Ensure quantity is a number
+            image: imageBase64, // Use the Base64 string for the image
+        };
+
+        try {
+            const response = await fetch("https://localhost:7230/Product/create-product", {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json', // Set content type to JSON
+                },
+                body: JSON.stringify(payload), // Convert the payload to JSON
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text(); // Get the error message from the response
+                throw new Error(`Network response was not ok: ${errorText}`);
+            }
+
+            const result = await response.json();
+            console.log('Product uploaded:', result);
+
+            // Show success message
+            setSnackbarMessage('Product uploaded successfully!');
+            setOpenSnackbar(true);
+            // Optionally reset the form after a successful upload
+            resetForm();
+        } catch (error) {
+            console.error("Error uploading product:", error);
+            setSnackbarMessage('Failed to upload product.'); // Set error message
+            setOpenSnackbar(true); // Open snackbar to show error message
+        }
+    };
+
+    const resetForm = () => {
+        setProductName('');
+        setPrice('');
+        setDescription('');
+        setQuantity('');
+        setImage(null);
+        setImageBase64('');
+    };
+
+    const handleCloseSnackbar = () => {
+        setOpenSnackbar(false); // Close snackbar
     };
 
     return (
@@ -84,7 +145,8 @@ const UploadProduct = () => {
                             <input
                                 type="file"
                                 hidden
-                                onChange={(e) => setImage(e.target.files[0])}
+                                accept="image/*"
+                                onChange={handleImageChange}
                             />
                         </Button>
 
@@ -108,6 +170,13 @@ const UploadProduct = () => {
                     </Stack>
                 </CardContent>
             </Card>
+
+            {/* Snackbar for success/error messages */}
+            <Snackbar open={openSnackbar} autoHideDuration={6000} onClose={handleCloseSnackbar}>
+                <Alert onClose={handleCloseSnackbar} severity="success" sx={{ width: '100%' }}>
+                    {snackbarMessage}
+                </Alert>
+            </Snackbar>
         </Box>
     );
 };
