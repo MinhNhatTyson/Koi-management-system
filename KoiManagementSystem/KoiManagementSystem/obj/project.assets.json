@@ -3258,6 +3258,8 @@
           "BCrypt.Net-Next": "4.0.3",
           "BusinessLayer": "1.0.0",
           "FluentValidation": "11.10.0",
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Newtonsoft.Json": "13.0.3",
           "RepositoryLayer": "1.0.0",
           "VNPayPackage": "2.1.0"
         },
@@ -9564,24 +9566,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj",
+      "projectUniqueName": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj",
       "projectName": "KoiManagementSystem",
-      "projectPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\obj\\",
+      "projectPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\KoiManagementSystem.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9589,20 +9586,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj"
+            "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj"
+            "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj"
             },
-            "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj": {
-              "projectPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj"
+            "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj": {
+              "projectPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj"
             }
           }
         }
@@ -9674,16 +9672,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

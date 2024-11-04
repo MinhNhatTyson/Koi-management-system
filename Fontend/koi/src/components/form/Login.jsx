@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import '../css/LoginForm.css';
 import { FaUser, FaLock } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
 
 const LoginForm = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
+    const navigate = useNavigate(); // Initialize useNavigate
 
     const handleLogin = async (e) => {
         e.preventDefault();
@@ -29,6 +31,7 @@ const LoginForm = () => {
             if (response.ok) {
                 const data = await response.json();
                 console.log('Login successful:', data);
+                navigate('/dashboard'); // Redirect to /dashboard on successful login
             } else {
                 const errorData = await response.json();
                 console.log('Login failed:', errorData); // Debugging: Inspect error data

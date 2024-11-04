@@ -106,7 +106,7 @@
     align-items: center;
     min-height: 100vh;
 
-    background: url('D:\groupProject\Koi-management-system\Fontend\koi\src\components\Assecs\AnhKoi.png')
+    background: url('D:\groupProject\PRN231\Koi-management-system\Fontend\koi\src\components\Assecs\AnhKoi.png  ')
 
     no-repeat;
     background-size: cover;
@@ -141,7 +141,7 @@ body {
     no-repeat;
     background-size: cover;
     background-position: center;
-  }
+  } 
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
