@@ -1,7 +1,9 @@
-import React from 'react';
 import './HistoryOrderForm.css';
 import { FaCheckCircle } from "react-icons/fa";
+import React from 'react'; 
+import { useNavigate } from 'react-router-dom';
 function HistoryOrderForm() {
+  const navigate = useNavigate();
   return (
     <div className="order-summary">
       <div className="order-content">
@@ -21,7 +23,7 @@ function HistoryOrderForm() {
                 <p>Golden</p>
                 <p className="price">$359</p>
                 <div className="product-links">
-                  <a href="#view-product">View Product</a>
+                  <a href="/product-detail">View Product</a>
                 </div>
               </div>
             </div>
@@ -32,14 +34,14 @@ function HistoryOrderForm() {
                 <p>Space Gray</p>
                 <p className="price">$49</p>
                 <div className="product-links">
-                  <a href="#view-product">View Product</a> 
+                  <a href="/product-detail">View Product</a> 
                 </div>
               </div>
             </div>
           </div>
           
           <div className="order-buttons">
-            <button>View Invoice</button>
+            <button onClick={() => navigate('/invoice')}>View Invoice</button>
           </div>
         </div>
       </div>
