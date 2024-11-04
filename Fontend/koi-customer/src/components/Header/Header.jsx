@@ -44,9 +44,9 @@ const Header = () => {
 
       {/* Icons */}
       <div className="icons">
-        <FaUser className="icon" />
-        <FaShoppingCart className="icon" />
-        <FaHistory className="icon"/>
+        <FaUser className="icon" onClick={() => navigate('/account')}/>
+        <FaShoppingCart className="icon" onClick={() => navigate('/cart')}/>
+        <FaHistory className="icon" onClick={() => navigate('/history')}/>
         <button className="auth-button" onClick={() => navigate('/login')}>
           Login
         </button>

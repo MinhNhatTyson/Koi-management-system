@@ -9,6 +9,10 @@ import Blog from './pages/Blog/Blog';
 import Shop from './pages/Shop/Shop';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
+import Account from './pages/Account/Account';
+import Cart from './pages/Cart/Cart';
+import History from './pages/History/History';
+import ProductDetail from './pages/ProductDetail/ProductDetail';
 const App = () => {
   return (
     <Router>
@@ -23,6 +27,10 @@ const App = () => {
             <Route path="/shop" element={<Shop />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
+            <Route path="/account" element={<Account />} />
+            <Route path="/cart" element={<Cart />} />
+            <Route path="/history" element={<History />} />
+            <Route path="/product-detail" element={<ProductDetail />} />
           </Routes>
         </main>
         <Footer />
