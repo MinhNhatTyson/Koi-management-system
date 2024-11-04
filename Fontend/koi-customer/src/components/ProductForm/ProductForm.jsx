@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './ProductForm.css';
 import { FaMoneyBill } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
-
+import { useNavigate } from 'react-router-dom';
 function ProductForm() {
   const products = [
     { title: 'GENSHIN IMPACT', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv62txaKvM5xBFvr1ztTOpEibjLrabkGFxsw&s', available: 2321, sold: 44514 },
@@ -29,11 +29,11 @@ function ProductForm() {
   const goToPage = (pageNumber) => {
     setCurrentPage(pageNumber);
   };
-
+  const navigate = useNavigate();
   return (
     <div className="product-list">
       <h1>Koi Fish List</h1>
-      <div className="product-cards">
+      <div className="product-cards" onClick={() => navigate('/product-detail')}>
         {currentItems.map((product, index) => (
           <div className="product-card" key={index}>
             <img src={product.image} alt={product.title} className="product-image" />

@@ -1,85 +1,69 @@
+// CartForm.jsx
 import React, { useState } from 'react';
 import './CartForm.css';
-import characterImage from '../../assets/image/character.png';
-const CartForm = () => {
-    const [cartItems, setCartItems] = useState([
-        { id: 1, name: 'Christmas Gift', price: 10, quantity: 1, image: characterImage },
-        { id: 2, name: 'Birthday Gift', price: 10, quantity: 2, image: characterImage }
-    ]);
+import { FaTrashAlt } from "react-icons/fa";
 
-    const handleQuantityChange = (id, newQuantity) => {
-        setCartItems(
-            cartItems.map(item =>
-                item.id === id ? { ...item, quantity: newQuantity } : item
+function CartForm() {
+    const initialCartItems = [
+        { id: 1, title: "Apple Watch Series 7 – 44mm", subtitle: "Golden", price: 259.00, quantity: 1, image: "https://images.pexels.com/photos/13643489/pexels-photo-13643489.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" },
+        { id: 2, title: "Beylob 90 Speaker", subtitle: "Space Gray", price: 99.0, quantity: 1, image: "https://images.pexels.com/photos/13643489/pexels-photo-13643489.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" },
+        { id: 3, title: "Beoplay M5 Bluetooth Speaker", subtitle: "Silver Collection", price: 129.00, quantity: 1, image: "https://images.pexels.com/photos/13643489/pexels-photo-13643489.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" },
+        { id: 4, title: "Apple Watch Series 7 – 44mm", subtitle: "Golden", price: 379.00, quantity: 1, image: "https://images.pexels.com/photos/13643489/pexels-photo-13643489.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" }
+    ];
+
+    const [cartItems, setCartItems] = useState(initialCartItems);
+
+    const handleQuantityChange = (id, change) => {
+        setCartItems(prevItems =>
+            prevItems.map(item =>
+                item.id === id
+                    ? { ...item, quantity: Math.max(1, item.quantity + change) }
+                    : item
             )
         );
     };
 
-    const handleRemoveItem = (id) => {
-        setCartItems(cartItems.filter(item => item.id !== id));
-    };
-
-    const calculateTotal = () => {
-        return cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
-    };
+    const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    const total = subtotal;
 
     return (
         <div className="cart-container">
-            <table className="cart-table">
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>Product</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Subtotal</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {cartItems.map(item => (
-                        <tr key={item.id}>
-                            <td>
-                                <img src={item.image} alt={item.name} className="product-image" />
-                            </td>
-                            <td>
-                                {item.name}
-                            </td>
-                            <td>{item.price}$</td>
-                            <td>
-                                <input
-                                    type="number"
-                                    min="1"
-                                    value={item.quantity}
-                                    onChange={e => handleQuantityChange(item.id, parseInt(e.target.value))}
-                                />
-                            </td>
-                            <td>{item.price * item.quantity}$</td>
-                            <td>
-                                <button onClick={() => handleRemoveItem(item.id)} className="remove-button">
-                                    🗑️
-                                </button>
-                            </td>
-                        </tr>
-                    ))}
-                </tbody>
-            </table>
-            <div className="cart-totals">
-                <h2>Cart Totals</h2>
+            <div className="cart-items">
+                <h2>Your Cart</h2>
                 {cartItems.map(item => (
-                    <div key={item.id}>
-                        <span>{item.name}</span>
-                        <span>{item.price * item.quantity}$</span>
+                    <div key={item.id} className="cart-item">
+                        <img src={item.image} alt={item.title} />
+                        <div className="cart-item-info">
+                            <div className="cart-item-title">{item.title}</div>
+                            <div className="cart-item-subtitle">{item.subtitle}</div>
+                        </div>
+                        <div className="cart-item-quantity">
+                            <button onClick={() => handleQuantityChange(item.id, -1)}>-</button>
+                            <span>{item.quantity}</span>
+                            <button onClick={() => handleQuantityChange(item.id, 1)}>+</button>
+                        </div>
+                        <div className="cart-item-price">${(item.price * item.quantity).toFixed(2)}</div>
+                        <div className="cart-item-remove"><FaTrashAlt /></div>
                     </div>
                 ))}
-                <div className="total-row"> 
-                    <h3>Total:</h3>
-                    <h3>{calculateTotal()}$</h3>
+            </div>
+
+            <div className="summary-container">
+                <div className="summary-item">
+                    <span>Subtotal</span>
+                    <span>${subtotal.toFixed(2)}</span>
                 </div>
-                <button className="checkout-button">Check Out</button>
+                <div className="summary-total">
+                    <span>Total</span>
+                    <span>${total.toFixed(2)}</span>
+                </div>
+                <div className="summary-buttons">
+                    <button className="confirm-button">Continue Order</button>
+                    <button className="continue-button">Continue Shopping</button>
+                </div>
             </div>
         </div>
     );
-};
+}
 
 export default CartForm;
