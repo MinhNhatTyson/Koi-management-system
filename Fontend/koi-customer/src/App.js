@@ -13,6 +13,7 @@ import Account from './pages/Account/Account';
 import Cart from './pages/Cart/Cart';
 import History from './pages/History/History';
 import ProductDetail from './pages/ProductDetail/ProductDetail';
+import Invoice from './pages/Invoice/Invoice';
 const App = () => {
   return (
     <Router>
@@ -31,6 +32,7 @@ const App = () => {
             <Route path="/cart" element={<Cart />} />
             <Route path="/history" element={<History />} />
             <Route path="/product-detail" element={<ProductDetail />} />
+            <Route path="/invoice" element={<Invoice />} />
           </Routes>
         </main>
         <Footer />
