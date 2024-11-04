@@ -164,3 +164,72 @@
 .container-form-account .full-width-button:hover {
     background-color: #073464; /* Darker shade on hover */
 }
+
+/* Pond List */
+.container-form-account .pond-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.container-form-account .pond-card {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    background-color: #333;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.container-form-account .pond-avatar-container {
+    display: flex;
+    align-items: center;
+    margin-top: 35px; /* Space above avatar */
+}
+
+.container-form-account .pond-avatar {
+    width: 20px; /* Size of the avatar */
+    height: 20px;
+    border-radius: 50%; /* Makes the avatar circular */
+    object-fit: cover; /* Ensures the image covers the avatar without distortion */
+}
+
+.container-form-account .pond-avatar-name {
+    margin-left: 5px;
+    font-size: 0.8em; /* Adjust size as needed */
+    color: gray; /* Color for the avatar name */
+}
+.container-form-account .pond-card:hover {
+    transform: scale(1.02);
+}
+
+.container-form-account .pond-card-image {
+    width: 200px;
+    height: 120px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.container-form-account .pond-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-grow: 1; /* Allows this section to take available space */
+}
+
+.container-form-account .pond-card-title {
+    font-size: 1.5em;
+    color: #b2d4f2;
+    font-weight: bold;
+    margin: 0;
+}
+
+.container-form-account .pond-card-description {
+    font-size: 1.2em;
+    color: white;
+    margin: 0;
+}
