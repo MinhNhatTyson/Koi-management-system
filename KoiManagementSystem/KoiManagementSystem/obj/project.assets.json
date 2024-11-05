@@ -3258,6 +3258,8 @@
           "BCrypt.Net-Next": "4.0.3",
           "BusinessLayer": "1.0.0",
           "FluentValidation": "11.10.0",
+          "Microsoft.AspNetCore.Http": "2.2.2",
+          "Newtonsoft.Json": "13.0.3",
           "RepositoryLayer": "1.0.0",
           "VNPayPackage": "2.1.0"
         },
@@ -9677,13 +9679,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
