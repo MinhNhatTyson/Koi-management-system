@@ -4,6 +4,14 @@ import { SiSpond } from "react-icons/si";
 import { IoFish } from "react-icons/io5";
 import { FaMicroblog } from "react-icons/fa";
 function AccountForm() {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const handleOpenModal = () => setIsModalOpen(true);
+    const handleCloseModal = () => setIsModalOpen(false);
+    const handleOverlayClick = (event) => {
+        if (event.target.classList.contains('modal-overlay')) {
+            handleCloseModal();
+        }
+    };
     const [activeTab, setActiveTab] = useState("Blog");
     const pondItems = [
         {
@@ -23,7 +31,98 @@ function AccountForm() {
         }
     ];
     return (
+        
         <div className="container-form-account">
+            {isModalOpen && (
+                <div className="modal-overlay" onClick={handleOverlayClick}>
+                    <div className="modal-content">
+                        <h2>Pond Information</h2>
+                        <form className="pond-form">
+                            <div className="form-columns">
+                                {/* Left Column: Pond Details and SaltID */}
+                                <div className="form-column">
+                                    <h3>Pond Details</h3>
+                                    <label>
+                                        Pond Name:
+                                        <input type="text" name="pondName" />
+                                    </label>
+                                    <label>
+                                        Size:
+                                        <input type="text" name="size" />
+                                    </label>
+                                    <label>
+                                        Volume:
+                                        <input type="text" name="volume" />
+                                    </label>
+                                    <label>
+                                        Water Discharge Rate:
+                                        <input type="text" name="waterDischargeRate" />
+                                    </label>
+                                    <label>
+                                        Pump Capacity:
+                                        <input type="text" name="pumpCapacity" />
+                                    </label>
+
+                                    <h3>SaltID</h3>
+                                    <label>
+                                        Calculation Date:
+                                        <input type="date" name="calculationDate" />
+                                    </label>
+                                    <label>
+                                        Salt Amount:
+                                        <input type="number" name="saltAmount" />
+                                    </label>
+                                    <label>
+                                        Notes:
+                                        <textarea name="notes" rows="3"></textarea>
+                                    </label>
+                                </div>
+
+                                {/* Right Column: ParameterID */}
+                                <div className="form-column">
+                                    <h3>ParameterID</h3>
+                                    <label>
+                                        Measurement Date:
+                                        <input type="date" name="measurementDate" />
+                                    </label>
+                                    <label>
+                                        Temperature:
+                                        <input type="number" name="temperature" />
+                                    </label>
+                                    <label>
+                                        Salinity:
+                                        <input type="number" name="salinity" />
+                                    </label>
+                                    <label>
+                                        pH:
+                                        <input type="number" name="ph" step="0.1" />
+                                    </label>
+                                    <label>
+                                        Oxygen:
+                                        <input type="number" name="oxygen" />
+                                    </label>
+                                    <label>
+                                        NO2:
+                                        <input type="number" name="no2" />
+                                    </label>
+                                    <label>
+                                        NO3:
+                                        <input type="number" name="no3" />
+                                    </label>
+                                    <label>
+                                        PO4:
+                                        <input type="number" name="po4" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div className="button-group">
+                                <button type="submit">Save</button>
+                                <button type="button" onClick={handleCloseModal}>Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            )}
             {/* Header Section */}
             <div className="header">
                 <img 
@@ -116,7 +215,27 @@ function AccountForm() {
                         </div>
                     </div>
                 <button className="full-width-button">Enter</button>
-                </div>
+                    <div className="sidebar-container">
+                        <div className="sidebar-item">
+                            <button className="square-icon-button" onClick={handleOpenModal}>
+                                <SiSpond />
+                            </button>
+                            <span className="text">Add Pond</span>
+                        </div>                   
+                        <div className="sidebar-item">
+                            <button className="square-icon-button">
+                                <IoFish />
+                            </button>
+                            <span className="text">Add Fish</span>
+                        </div>
+                        <div className="sidebar-item">
+                            <button className="square-icon-button">
+                                <FaMicroblog />
+                            </button>
+                            <span className="text">Add Blog</span>
+                        </div>
+                    </div>
+                </div>   
             </div>
         </div>
     );
