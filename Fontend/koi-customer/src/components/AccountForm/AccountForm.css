@@ -59,7 +59,7 @@
 
 /* Left Section */
 .container-form-account .left-section {
-    flex: 3;
+    flex: 2;
     display: flex;
     flex-direction: column;
 }
@@ -108,12 +108,31 @@
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center align children horizontally */
+    height: fit-content;
 }
 
 .container-form-account .sidebar-container {
     display: flex; /* Use flexbox for horizontal layout */
     justify-content: space-between; /* Space items evenly */
     width: 100%; /* Full width */
+}
+
+.container-form-account .square-icon-button {
+    width: fit-content; /* Set the desired size */
+    height: fit-content; /* Make it a square */
+    background-color: #094a91; /* Button color */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners, optional */
+    color: white; /* Icon color */
+    display: flex; /* Center icon horizontally */
+    align-items: center; /* Center icon vertically */
+    justify-content: center; /* Center icon horizontally */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+}
+
+.container-form-account .square-icon-button:hover {
+    background-color: #073464; /* Darker shade on hover */
 }
 
 .container-form-account .sidebar-item {
@@ -232,4 +251,93 @@
     font-size: 1.2em;
     color: white;
     margin: 0;
+}
+
+/* Modal Overlay */
+.container-form-account .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.container-form-account .modal-content {
+    background-color: #242734;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px; /* Adjust width to accommodate two columns */
+    max-width: 90%;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container-form-account .modal-content h2 {
+    color: coral;
+}
+
+/* Form Columns */
+.container-form-account .form-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.container-form-account .form-column {
+    flex: 1;
+}
+
+.container-form-account .form-column h3 {
+    color: #F28C28;
+}
+
+/* Form Labels and Inputs */
+.container-form-account .pond-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #b2d4f2;
+}
+
+.container-form-account .pond-form input,
+.container-form-account .pond-form textarea {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Button Group */
+.container-form-account .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-form-account .button-group button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.container-form-account .button-group button:first-child {
+    background-color: #094a91;
+    color: white;
+}
+
+.container-form-account .button-group button:last-child {
+    background-color: #444;
+    color: white;
+}
+
+.container-form-account .button-group button:hover {
+    opacity: 0.9;
 }
