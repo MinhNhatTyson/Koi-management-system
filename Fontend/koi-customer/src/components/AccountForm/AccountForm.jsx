@@ -3,7 +3,9 @@ import './AccountForm.css';
 import { SiSpond } from "react-icons/si";
 import { IoFish } from "react-icons/io5";
 import { FaMicroblog } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 function AccountForm() {
+    const navigate = useNavigate();
     const [isModalOpen, setIsModalOpen] = useState(false);
     const handleOpenModal = () => setIsModalOpen(true);
     const handleCloseModal = () => setIsModalOpen(false);
@@ -41,7 +43,7 @@ function AccountForm() {
                             <div className="form-columns">
                                 {/* Left Column: Pond Details and SaltID */}
                                 <div className="form-column">
-                                    <h3>Pond Details</h3>
+                                    <h3>Pond</h3>
                                     <label>
                                         Pond Name:
                                         <input type="text" name="pondName" />
@@ -63,7 +65,11 @@ function AccountForm() {
                                         <input type="text" name="pumpCapacity" />
                                     </label>
 
-                                    <h3>SaltID</h3>
+                                    <h3>Salt</h3>
+                                    <label>
+                                        Salt ID:
+                                        <input type="number" name="saltId" />
+                                    </label>
                                     <label>
                                         Calculation Date:
                                         <input type="date" name="calculationDate" />
@@ -80,7 +86,11 @@ function AccountForm() {
 
                                 {/* Right Column: ParameterID */}
                                 <div className="form-column">
-                                    <h3>ParameterID</h3>
+                                    <h3>Parameter</h3>
+                                    <label>
+                                        Parameter ID
+                                        <input type="number" name="parameterId" />
+                                    </label>
                                     <label>
                                         Measurement Date:
                                         <input type="date" name="measurementDate" />
@@ -168,7 +178,7 @@ function AccountForm() {
                         ) : activeTab === "Pond" ? (
                             <div className="pond-list">
                                 {pondItems.map((item, index) => (
-                                    <div key={index} className="pond-card">
+                                    <div key={index} className="pond-card" onClick={() => navigate('/pond')}>
                                         <img src={item.image} alt={item.name} className="pond-card-image" />
                                         <div className="pond-card-content">
                                             <h3 className="pond-card-title">{item.name}</h3>
@@ -192,6 +202,7 @@ function AccountForm() {
                 {/* Right Section - Sidebar */}
                 <div className="sidebar">
                     <div className="sidebar-container">
+                    <div className="sidebar-items">
                         <div className="sidebar-item">
                             <div className="icon-container">
                                 <span className="icon"><SiSpond /></span>
@@ -214,8 +225,11 @@ function AccountForm() {
                             </div>
                         </div>
                     </div>
-                <button className="full-width-button">Enter</button>
+                    <button className="full-width-button">Enter</button>             
+                    </div>
+                
                     <div className="sidebar-container">
+                    <div className="sidebar-items">
                         <div className="sidebar-item">
                             <button className="square-icon-button" onClick={handleOpenModal}>
                                 <SiSpond />
@@ -235,7 +249,8 @@ function AccountForm() {
                             <span className="text">Add Blog</span>
                         </div>
                     </div>
-                </div>   
+                    </div>
+                </div>  
             </div>
         </div>
     );
