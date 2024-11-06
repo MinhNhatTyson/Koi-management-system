@@ -18,7 +18,7 @@ namespace KoiManagementSystem.Controllers.Koi
             _koiFishService = koiFishService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<ActionResult<ResponseEntity<List<KoiFish>>>> GetAllKoiFish()
         {
             var response = await _koiFishService.GetAll();
@@ -32,7 +32,7 @@ namespace KoiManagementSystem.Controllers.Koi
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("ViewAFish/{id}")]
         public async Task<ActionResult<ResponseEntity<KoiFish>>> GetKoiFishById(int id)
         {
             var response = await _koiFishService.GetById(id);
@@ -46,19 +46,19 @@ namespace KoiManagementSystem.Controllers.Koi
             }
         }
 
-        [HttpPost]
+        [HttpPost("CreateNewKoi")]
         public async Task<ActionResult<ResponseEntity<KoiFish>>> AddNewKoi(KoiFishRequestDTO koiFishRequestDTO)
         {
             return await _koiFishService.Create(koiFishRequestDTO);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("UpdateAFish/{id}")]
         public async Task<ActionResult<ResponseEntity<KoiFish>>> UpdateAFish(int id, KoiFishRequestDTO koiFish)
         {
             return await _koiFishService.Update(id, koiFish);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteAFish/{id}")]
         public async Task<ActionResult<ResponseEntity<bool>>> DeleteAFish(int id)
         {
             return await _koiFishService.Delete(id);
