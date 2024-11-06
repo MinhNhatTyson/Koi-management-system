@@ -17,7 +17,7 @@ namespace KoiManagementSystem.Controllers.Koi
             _koiGrowthService = koiGrowthService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<ActionResult<ResponseEntity<List<KoiGrowth>>>> GetAllKoiGrowthPlan()
         {
             var response = await _koiGrowthService.GetAll();
@@ -31,7 +31,7 @@ namespace KoiManagementSystem.Controllers.Koi
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("ViewAKoiGrowthInformation/{id}")]
         public async Task<ActionResult<ResponseEntity<KoiGrowth>>> GetKoiGrowthById(int id)
         {
             var response = await _koiGrowthService.GetById(id);
@@ -45,19 +45,19 @@ namespace KoiManagementSystem.Controllers.Koi
             }
         }
 
-        [HttpPost]
+        [HttpPost("GenerateNewKoiGrowth")]
         public async Task<ActionResult<ResponseEntity<KoiGrowth>>> CreateANewGrowthPlan(KoiGrowthRequestDTO koiGrowthRequestDTO)
         {
             return await _koiGrowthService.Create(koiGrowthRequestDTO);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("Update/{id}")]
         public async Task<ActionResult<ResponseEntity<KoiGrowth>>> UpdateGrowthPlan(int id, KoiGrowthRequestDTO koiGrowth)
         {
             return await _koiGrowthService.Update(id, koiGrowth);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("Delete/{id}")]
         public async Task<ActionResult<ResponseEntity<bool>>> DeleteGrowthPlan(int id)
         {
             return await _koiGrowthService.Delete(id);
