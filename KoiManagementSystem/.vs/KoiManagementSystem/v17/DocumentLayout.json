@@ -3,7 +3,51 @@
   "WorkspaceRootPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\ikoifishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\ikoifishservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\ifeedscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\ifeedscheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\ivnpayrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\ivnpayrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iorderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\servicelayer\\servicelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\servicelayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\ikoifishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\ikoifishrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\ifeedschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\ifeedschedulerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\groupproject\\prn231\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,17 +150,149 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AQIAAJsVAAAAAAAAAAASwKsVAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-11-04T06:50:57.558Z",
+              "Title": "IKoiFishService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IKoiFishService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IKoiFishService.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IKoiFishService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IKoiFishService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:35:32.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IFeedScheduleService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IFeedScheduleService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IFeedScheduleService.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IFeedScheduleService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IFeedScheduleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:35:32.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IVnPayRepo.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IVnPayRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IVnPayRepo.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IVnPayRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IVnPayRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:35:28.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:35:28.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IOrderItemRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IOrderItemRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IOrderItemRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IOrderItemRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IOrderItemRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T09:35:26.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\ProductService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Service\\ProductService.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\ProductService.cs",
+              "RelativeToolTip": "ServiceLayer\\Service\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T08:17:35.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServiceLayer.csproj",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
+              "RelativeDocumentMoniker": "ServiceLayer\\ServiceLayer.csproj",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
+              "RelativeToolTip": "ServiceLayer\\ServiceLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-04T08:17:29.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IKoiFishRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IKoiFishRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IKoiFishRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IKoiFishRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IKoiFishRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T07:13:10.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IFeedScheduleRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IFeedScheduleRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IFeedScheduleRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IFeedScheduleRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IFeedScheduleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T07:13:09.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IProductRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IProductRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T07:03:11.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IOrderRepository.cs",
+              "ToolTip": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IOrderRepository.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T07:02:31.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAJcVAAAAAAAAAIAwwKsVAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-04T06:50:57.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\WeatherForecast.cs",
@@ -128,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "SessionExtensions.cs",
               "DocumentMoniker": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\SessionExtensions.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\SessionExtensions.cs",
