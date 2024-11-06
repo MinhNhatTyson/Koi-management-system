@@ -1,0 +1,136 @@
+/* Main layout */
+.pond-fish-form {
+    display: flex;
+    flex-direction: column; /* Change to row layout */
+    justify-content: space-between; /* Add spacing between sections */
+    align-items: flex-start; /* Align items at the top */
+    font-family: Arial, sans-serif;
+    background-color: #1f1f2e;
+    color: #fff;
+    padding: 20px;
+}
+.main-sections {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+/* Character section styling */
+.pond-fish-form .character-section {
+    flex: 1; /* Make the character section take up one part of the available space */
+    text-align: center;
+    margin-right: 20px; /* Space between sections */
+}
+
+.pond-fish-form .character-image {
+    width: 100%; /* Adjust image width to fit within the section */
+    max-width: 850px; /* Limit max image width */
+    height: 550px;
+    border-radius: 10px;
+    object-fit: cover;
+    background-color: #f5b342;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, .08); */
+}
+
+/* Stats section styling */
+.pond-fish-form .stats-section 
+{
+    background-color: #242734;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.pond-fish-form .stats-title {
+    font-size: 18px;
+    text-align: center;
+    color: #f5b342;
+}
+.pond-fish-form .stats-title h2{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+
+.pond-fish-form .stat-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pond-fish-form .stat-item {
+    border: 1px solid #555;
+    padding: 8px;
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pond-fish-form .stat-label {
+    color: #ccc;
+}
+
+.pond-fish-form .stat-value {
+    font-weight: bold;
+}
+
+
+
+.pond-fish-form .fish-section {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #242734;
+    border-radius: 10px;
+}
+.pond-fish-form .fish-title {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.pond-fish-form .fish-title h2{
+    font-size: 30px;
+    color: white;
+    text-align: left;
+}
+
+.pond-fish-form .fish-list {
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.pond-fish-form .fish-item {
+    border-radius: 10px;
+    background-color: #1f1f2e;
+    padding: 10px;
+    display: flex; /* Set flex layout for horizontal alignment */
+    align-items: center; /* Center items vertically */
+    width: 173px;
+}
+
+.pond-fish-form .fish-image {
+    width: 75px;
+    height: 75px;
+    border-radius: 5px;
+    margin-right: 10px; /* Space between image and info */
+    object-fit: cover;
+}
+
+.pond-fish-form .fish-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align text to the left */
+}
+
+.pond-fish-form .fish-name {
+    font-weight: 700;
+    color : #F28C28;
+    font-size: 20px;
+    white-space: normal;
+    word-break: break-word;
+}
+
+.pond-fish-form .fish-age {
+    font-size: 18px;
+    color: #ccc;
+}

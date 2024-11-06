@@ -14,6 +14,7 @@ import Cart from './pages/Cart/Cart';
 import History from './pages/History/History';
 import ProductDetail from './pages/ProductDetail/ProductDetail';
 import Invoice from './pages/Invoice/Invoice';
+import Pond from './pages/Pond/Pond';
 const App = () => {
   return (
     <Router>
@@ -33,6 +34,7 @@ const App = () => {
             <Route path="/history" element={<History />} />
             <Route path="/product-detail" element={<ProductDetail />} />
             <Route path="/invoice" element={<Invoice />} />
+            <Route path="/pond" element={<Pond />} />
           </Routes>
         </main>
         <Footer />
