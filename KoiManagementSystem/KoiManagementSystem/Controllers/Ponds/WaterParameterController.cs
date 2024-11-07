@@ -42,7 +42,6 @@ namespace KoiManagementSystem.Controllers.waterParams
                 return BadRequest(ModelState);
             }
 
-            // Create a new Pond instance from the request
             var water = new WaterParameter
             {
                 MeasurementDate = DateTime.Now,
@@ -57,7 +56,7 @@ namespace KoiManagementSystem.Controllers.waterParams
             };
 
             await _waterService.AddWaterParameterAsync(water);
-            return CreatedAtAction(nameof(GetWaterParam), new { id = water.PondId }, water);
+            return CreatedAtAction(nameof(GetWaterParam), new { id = water.ParameterId }, water);
         }
         
     }

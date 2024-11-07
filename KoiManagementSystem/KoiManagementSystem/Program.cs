@@ -81,6 +81,7 @@ builder.Services.AddScoped<IKoiGrowthService, KoiGrowthService>();
 builder.Services.AddScoped<IFeedScheduleService, FeedScheduleService>();
 builder.Services.AddScoped<IPondService, PondService>();
 builder.Services.AddScoped<IWaterParameterService, WaterParameterService>();
+builder.Services.AddScoped<ISaltCalculationService, SaltCalculationService>();
 
 
 builder.Services.AddScoped<IVnPayService, VnPayService>();
@@ -100,6 +101,7 @@ builder.Services.AddScoped<ICartSerivce, CartService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddTransient<IPondRepo, PondRepo>();
 builder.Services.AddTransient<IWaterParameterRepo, WaterParameterRepo>();
+builder.Services.AddTransient<ISaltCalculationRepo, SaltCalculationRepo>();
 
 
 // Cấu hình CORS

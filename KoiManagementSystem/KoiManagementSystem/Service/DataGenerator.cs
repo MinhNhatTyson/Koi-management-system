@@ -57,6 +57,18 @@ namespace KoiManagementSystem.Service
             };
         }
 
+        public SaltCalculation GenerateSaltCalculation()
+        {
+            List<int> existedPondId = _koiCareContext.Ponds.Select(u => u.PondId).ToList();
+            return new SaltCalculation
+            {
+                CalculationDate = _faker.Date.Between(DateTime.Now.AddDays(-30), DateTime.Now),
+                Notes = _faker.Lorem.Text(),
+                SaltAmount = _faker.Random.Decimal(10, 100),
+                PondId = _faker.PickRandom(existedPondId)
+            };
+        }
+
         public KoiFish GenerateKoiFish()
         {
             List<int> existedPondId = _koiCareContext.Ponds.Select(u => u.PondId).ToList();
@@ -128,6 +140,9 @@ namespace KoiManagementSystem.Service
 
                 var waterParams = Enumerable.Range(1, 5).Select(_ => GenerateWaterParams()).ToList();
                 context.WaterParameters.AddRange(waterParams);
+
+                var saltCalculations = Enumerable.Range(1, 5).Select(_ => GenerateSaltCalculation()).ToList();
+                context.SaltCalculations.AddRange(saltCalculations);
 
                 var feedSchedules = Enumerable.Range(1, 5).Select(_ => GenerateFeedSchedule()).ToList();
                 context.FeedSchedules.AddRange(feedSchedules);
