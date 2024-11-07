@@ -40,6 +40,23 @@ namespace KoiManagementSystem.Service
             };
         }
 
+        public WaterParameter GenerateWaterParams()
+        {
+            List<int> existedPondId = _koiCareContext.Ponds.Select(u => u.PondId).ToList();
+            return new WaterParameter
+            {
+                MeasurementDate = _faker.Date.Between(DateTime.Now.AddDays(-30), DateTime.Now),
+                Temperature = _faker.Random.Decimal(10, 100),
+                Salinity = _faker.Random.Decimal(1, 10),
+                PH = _faker.Random.Decimal(1, 10),
+                Oxygen = _faker.Random.Decimal(1, 10),
+                No2 = _faker.Random.Decimal(1, 10),
+                No3 = _faker.Random.Decimal(1, 10),
+                Po4 = _faker.Random.Decimal(1,10),
+                PondId = _faker.PickRandom(existedPondId)
+            };
+        }
+
         public KoiFish GenerateKoiFish()
         {
             List<int> existedPondId = _koiCareContext.Ponds.Select(u => u.PondId).ToList();
@@ -103,10 +120,14 @@ namespace KoiManagementSystem.Service
             context.Ponds.AddRange(ponds);
             context.SaveChanges();
 
+
                 var koiFishes = Enumerable.Range(1, 5).Select(_ => GenerateKoiFish()).ToList();
                 context.KoiFishes.AddRange(koiFishes);
 
             context.SaveChanges();
+
+                var waterParams = Enumerable.Range(1, 5).Select(_ => GenerateWaterParams()).ToList();
+                context.WaterParameters.AddRange(waterParams);
 
                 var feedSchedules = Enumerable.Range(1, 5).Select(_ => GenerateFeedSchedule()).ToList();
                 context.FeedSchedules.AddRange(feedSchedules);

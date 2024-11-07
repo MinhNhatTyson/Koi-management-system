@@ -15,6 +15,7 @@ D:\groupProject\Koi-management-system\KoiManagementSystem\RepositoryLayer\obj\De
 D:\groupProject\Koi-management-system\KoiManagementSystem\RepositoryLayer\obj\Debug\net8.0\RepositoryLayer.pdb
 D:\groupProject\Koi-management-system\KoiManagementSystem\RepositoryLayer\obj\Debug\net8.0\ref\RepositoryLayer.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\RepositoryLayer\bin\Debug\net8.0\RepositoryLayer.deps.json
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\RepositoryLayer\bin\Debug\net8.0\RepositoryLayer.dll
@@ -32,6 +33,8 @@ D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\RepositoryLayer\obj\Debu
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\RepositoryLayer\obj\Debug\net8.0\refint\RepositoryLayer.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\RepositoryLayer\obj\Debug\net8.0\RepositoryLayer.pdb
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\RepositoryLayer\obj\Debug\net8.0\ref\RepositoryLayer.dll
+=======
+>>>>>>> 273275ec68be5c185bac60694e345db247edbf49
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\RepositoryLayer\bin\Debug\net8.0\RepositoryLayer.deps.json
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\RepositoryLayer\bin\Debug\net8.0\RepositoryLayer.dll
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\RepositoryLayer\bin\Debug\net8.0\RepositoryLayer.pdb

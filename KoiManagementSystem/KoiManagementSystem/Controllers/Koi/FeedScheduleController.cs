@@ -17,7 +17,7 @@ namespace KoiManagementSystem.Controllers.Koi
             feedScheduleService = koiGrowthService;
         }
 
-        [HttpGet]
+        [HttpGet("GetAll")]
         public async Task<ActionResult<ResponseEntity<List<KoiGrowth>>>> GetAllKoiFeedSchedule()
         {
             var response = await feedScheduleService.GetAll();
@@ -31,7 +31,7 @@ namespace KoiManagementSystem.Controllers.Koi
             }
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("ViewInDetail/{id}")]
         public async Task<ActionResult<ResponseEntity<KoiGrowth>>> GetFeedScheduleById(int id)
         {
             var response = await feedScheduleService.GetById(id);
@@ -45,19 +45,19 @@ namespace KoiManagementSystem.Controllers.Koi
             }
         }
 
-        [HttpPost]
+        [HttpPost("CreateNewFeedSchedule")]
         public async Task<ActionResult<ResponseEntity<FeedSchedule>>> CreateANewFeedSchedule(FeedScheduleRequestDTO FeedScheduleRequestDTO)
         {
             return await feedScheduleService.Create(FeedScheduleRequestDTO);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("UpdateAFeedSchedule/{id}")]
         public async Task<ActionResult<ResponseEntity<FeedSchedule>>> UpdateAFeedSchedule(int id, FeedScheduleRequestDTO FeedSchedule)
         {
             return await feedScheduleService.Update(id, FeedSchedule);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteAFeedSchedule/{id}")]
         public async Task<ActionResult<ResponseEntity<bool>>> DeleteFeedSchedule(int id)
         {
             return await feedScheduleService.Delete(id);

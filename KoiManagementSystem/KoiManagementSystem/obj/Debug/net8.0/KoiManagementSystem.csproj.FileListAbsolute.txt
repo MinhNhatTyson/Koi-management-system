@@ -272,6 +272,7 @@ D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+<<<<<<< HEAD
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\appsettings.json
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\default.json
@@ -364,3 +365,5 @@ D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManageme
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.genruntimeconfig.cache
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\ref\KoiManagementSystem.dll
 >>>>>>> d465c213222529e7cd270e6732e54ef5bfa505ae
+=======
+>>>>>>> 273275ec68be5c185bac60694e345db247edbf49

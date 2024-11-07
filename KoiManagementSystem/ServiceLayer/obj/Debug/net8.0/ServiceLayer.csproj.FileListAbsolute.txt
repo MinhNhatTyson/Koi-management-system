@@ -17,6 +17,7 @@ D:\groupProject\Koi-management-system\KoiManagementSystem\ServiceLayer\obj\Debug
 D:\groupProject\Koi-management-system\KoiManagementSystem\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
 D:\groupProject\Koi-management-system\KoiManagementSystem\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
@@ -36,6 +37,8 @@ D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\ServiceLayer\obj\Debug\n
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\ServiceLayer\obj\Debug\net8.0\refint\ServiceLayer.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\ServiceLayer\obj\Debug\net8.0\ServiceLayer.pdb
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\ServiceLayer\obj\Debug\net8.0\ref\ServiceLayer.dll
+=======
+>>>>>>> 273275ec68be5c185bac60694e345db247edbf49
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\ServiceLayer\bin\Debug\net8.0\ServiceLayer.deps.json
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\ServiceLayer\bin\Debug\net8.0\ServiceLayer.dll
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\ServiceLayer\bin\Debug\net8.0\ServiceLayer.pdb
