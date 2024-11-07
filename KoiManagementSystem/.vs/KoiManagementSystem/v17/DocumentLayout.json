@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\koi\\feedschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\koi\\feedschedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\service\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\service\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\ponds\\waterparametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\ponds\\waterparametercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\controllers\\ponds\\pondcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\controllers\\ponds\\pondcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\updatepondrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\updatepondrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\businesslayer\\request\\createpondrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD32B0E0-74BB-4B4C-B5DC-614F83238018}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\request\\createpondrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\service\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\service\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\waterparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\waterparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\koimanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EBD4E54-924C-474F-BBE3-C21D6BDDE32B}|KoiManagementSystem\\KoiManagementSystem.csproj|solutionrelative:koimanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\servicelayer\\service\\pondservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\service\\pondservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\repositorylayer\\repository\\waterparameterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repository\\waterparameterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\repositorylayer\\repository\\pondrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\repository\\pondrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\iwaterparameterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\iwaterparameterrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\iwaterparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\iwaterparameterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\servicelayer\\interface\\ipondservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AF39C1E-6D38-4618-A8C5-275E036EBC3F}|ServiceLayer\\ServiceLayer.csproj|solutionrelative:servicelayer\\interface\\ipondservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|d:\\fpt\\prn211\\koi-management-system\\koimanagementsystem\\repositorylayer\\interface\\ipondrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B64EB20-3938-4B96-82A3-5B5866ED4980}|RepositoryLayer\\RepositoryLayer.csproj|solutionrelative:repositorylayer\\interface\\ipondrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +50,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 272,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 30,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PondController.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Ponds\\PondController.cs",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Ponds\\PondController.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Ponds\\PondController.cs",
+              "RelativeToolTip": "KoiManagementSystem\\Controllers\\Ponds\\PondController.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAowFsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T06:20:39.941Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -130,106 +152,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FeedScheduleController.cs",
-              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs",
-              "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs",
-              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs*",
-              "RelativeToolTip": "KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs*",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwDsAAAApAAAA",
+              "DocumentIndex": 1,
+              "Title": "WaterParameterController.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Ponds\\WaterParameterController.cs",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Ponds\\WaterParameterController.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Ponds\\WaterParameterController.cs",
+              "RelativeToolTip": "KoiManagementSystem\\Controllers\\Ponds\\WaterParameterController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:35:19.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UpdatePondRequest.cs",
-              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\UpdatePondRequest.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Request\\UpdatePondRequest.cs",
-              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\UpdatePondRequest.cs",
-              "RelativeToolTip": "BusinessLayer\\Request\\UpdatePondRequest.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBwAAAAyAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:28:55.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreatePondRequest.cs",
-              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\CreatePondRequest.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Request\\CreatePondRequest.cs",
-              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\Request\\CreatePondRequest.cs",
-              "RelativeToolTip": "BusinessLayer\\Request\\CreatePondRequest.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwB4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:20:35.981Z",
+              "WhenOpened": "2024-11-07T06:20:35.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DataGenerator.cs",
-              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Service\\DataGenerator.cs",
-              "RelativeDocumentMoniker": "KoiManagementSystem\\Service\\DataGenerator.cs",
-              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Service\\DataGenerator.cs",
-              "RelativeToolTip": "KoiManagementSystem\\Service\\DataGenerator.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:13:32.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PondController.cs",
-              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Ponds\\PondController.cs",
-              "RelativeDocumentMoniker": "KoiManagementSystem\\Controllers\\Ponds\\PondController.cs",
-              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Controllers\\Ponds\\PondController.cs",
-              "RelativeToolTip": "KoiManagementSystem\\Controllers\\Ponds\\PondController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAowFYAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:09:08.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "KoiManagementSystem\\Program.cs",
               "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Program.cs",
               "RelativeToolTip": "KoiManagementSystem\\Program.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF8AAABAAAAA",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAIwGUAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:07:34.785Z",
+              "WhenOpened": "2024-11-07T06:19:17.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PondRepo.cs",
-              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\PondRepo.cs",
-              "RelativeDocumentMoniker": "RepositoryLayer\\Repository\\PondRepo.cs",
-              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\PondRepo.cs",
-              "RelativeToolTip": "RepositoryLayer\\Repository\\PondRepo.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAkwBcAAAAzAAAA",
+              "DocumentIndex": 3,
+              "Title": "WaterParameterService.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\WaterParameterService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Service\\WaterParameterService.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\WaterParameterService.cs",
+              "RelativeToolTip": "ServiceLayer\\Service\\WaterParameterService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCkAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:05:48.7Z",
+              "WhenOpened": "2024-11-07T06:16:30.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WaterParameterRepo.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\WaterParameterRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Repository\\WaterParameterRepo.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Repository\\WaterParameterRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Repository\\WaterParameterRepo.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwBwAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T06:12:42.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPondRepo.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IPondRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IPondRepo.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IPondRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IPondRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T06:12:14.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PondService.cs",
-              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\PondService.cs",
-              "RelativeDocumentMoniker": "ServiceLayer\\Service\\PondService.cs",
-              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Service\\PondService.cs",
-              "RelativeToolTip": "ServiceLayer\\Service\\PondService.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAkwA8AAAAkAAAA",
+              "Title": "IWaterParameterRepo.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IWaterParameterRepo.cs",
+              "RelativeDocumentMoniker": "RepositoryLayer\\Interface\\IWaterParameterRepo.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\Interface\\IWaterParameterRepo.cs",
+              "RelativeToolTip": "RepositoryLayer\\Interface\\IWaterParameterRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T12:04:16.512Z",
+              "WhenOpened": "2024-11-07T06:12:02.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPondService.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IPondService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IPondService.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IPondService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IPondService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T06:10:47.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IWaterParameterService.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IWaterParameterService.cs",
+              "RelativeDocumentMoniker": "ServiceLayer\\Interface\\IWaterParameterService.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\Interface\\IWaterParameterService.cs",
+              "RelativeToolTip": "ServiceLayer\\Interface\\IWaterParameterService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T06:10:29.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataGenerator.cs",
+              "DocumentMoniker": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Service\\DataGenerator.cs",
+              "RelativeDocumentMoniker": "KoiManagementSystem\\Service\\DataGenerator.cs",
+              "ToolTip": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\KoiManagementSystem\\Service\\DataGenerator.cs",
+              "RelativeToolTip": "KoiManagementSystem\\Service\\DataGenerator.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T12:13:32.366Z",
               "EditorCaption": ""
             }
           ]
