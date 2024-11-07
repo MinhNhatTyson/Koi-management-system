@@ -83,7 +83,11 @@ builder.Services.AddScoped<IPondService, PondService>();
 <<<<<<< HEAD
 =======
 builder.Services.AddScoped<IWaterParameterService, WaterParameterService>();
+<<<<<<< HEAD
 >>>>>>> 273275ec68be5c185bac60694e345db247edbf49
+=======
+builder.Services.AddScoped<ISaltCalculationService, SaltCalculationService>();
+>>>>>>> 5196e52f2aa890ed0531a76c792486e007ecc4c5
 
 
 builder.Services.AddScoped<IVnPayService, VnPayService>();
@@ -105,7 +109,11 @@ builder.Services.AddTransient<IPondRepo, PondRepo>();
 <<<<<<< HEAD
 =======
 builder.Services.AddTransient<IWaterParameterRepo, WaterParameterRepo>();
+<<<<<<< HEAD
 >>>>>>> 273275ec68be5c185bac60694e345db247edbf49
+=======
+builder.Services.AddTransient<ISaltCalculationRepo, SaltCalculationRepo>();
+>>>>>>> 5196e52f2aa890ed0531a76c792486e007ecc4c5
 
 
 // Cấu hình CORS
