@@ -4,14 +4,23 @@ import { SiSpond } from "react-icons/si";
 import { IoFish } from "react-icons/io5";
 import { FaMicroblog } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
+import { FaCalculator } from "react-icons/fa";
 function AccountForm() {
     const navigate = useNavigate();
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isModalOpenFish, setIsModalOpenFish] = useState(false);
     const handleOpenModal = () => setIsModalOpen(true);
+    const handleOpenModalFish = () => setIsModalOpenFish(true);
     const handleCloseModal = () => setIsModalOpen(false);
+    const handleCloseModalFish = () => setIsModalOpenFish(false);
     const handleOverlayClick = (event) => {
         if (event.target.classList.contains('modal-overlay')) {
             handleCloseModal();
+        }
+    };
+    const handleOverlayClickFish = (event) => {
+        if (event.target.classList.contains('modal-overlay-fish')) {
+            handleCloseModalFish();
         }
     };
     const [activeTab, setActiveTab] = useState("Blog");
@@ -32,9 +41,9 @@ function AccountForm() {
             description: "A Japanese pond fish that symbolizes good luck.",
         }
     ];
-    return (
-        
+    return ( 
         <div className="container-form-account">
+
             {isModalOpen && (
                 <div className="modal-overlay" onClick={handleOverlayClick}>
                     <div className="modal-content">
@@ -53,6 +62,10 @@ function AccountForm() {
                                         <input type="text" name="size" />
                                     </label>
                                     <label>
+                                        Depth:
+                                        <input type="text" name="depth" />
+                                    </label>
+                                    <label>
                                         Volume:
                                         <input type="text" name="volume" />
                                     </label>
@@ -66,10 +79,6 @@ function AccountForm() {
                                     </label>
 
                                     <h3>Salt</h3>
-                                    <label>
-                                        Salt ID:
-                                        <input type="number" name="saltId" />
-                                    </label>
                                     <label>
                                         Calculation Date:
                                         <input type="date" name="calculationDate" />
@@ -87,10 +96,6 @@ function AccountForm() {
                                 {/* Right Column: ParameterID */}
                                 <div className="form-column">
                                     <h3>Parameter</h3>
-                                    <label>
-                                        Parameter ID
-                                        <input type="number" name="parameterId" />
-                                    </label>
                                     <label>
                                         Measurement Date:
                                         <input type="date" name="measurementDate" />
@@ -133,6 +138,50 @@ function AccountForm() {
                     </div>
                 </div>
             )}
+
+            {isModalOpenFish && (
+                <div className="modal-overlay-fish" onClick={handleOverlayClickFish}>
+                    <div className="modal-content-fish">
+                        <h2>Calculate</h2>
+                        <form className="fish-form">
+                            <div className="form-columns">
+                                <div className="form-column">
+                                    <h3>Salt</h3>
+                                    <label>
+                                        Volume
+                                        <input type="number" name="volume" />
+                                    </label>
+                                    <label>
+                                        Salt Concentration
+                                        <input type="number" name="saltConcentration" />
+                                    </label>
+                                    <label>
+                                        Water Change Rate
+                                        <input type="number" name="waterChangeRate" />
+                                    </label>
+                                    <label>
+                                        Pond Condition
+                                        <input type="text" name="pondCondition" />
+                                    </label>
+                                    <label>
+                                        Temperature
+                                        <input type="number" name="temperature" />
+                                    </label>
+                                    <label>
+                                        Ph Level
+                                        <input type="number" name="phLevel" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div className="button-group-fish">
+                                <button type="submit">Save</button>
+                                <button type="button" onClick={handleCloseModalFish}>Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            )}
+
             {/* Header Section */}
             <div className="header">
                 <img 
@@ -248,6 +297,14 @@ function AccountForm() {
                             </button>
                             <span className="text">Add Blog</span>
                         </div>
+                    </div>
+                    <div className="sidebar-items">
+                        <div className="sidebar-item">
+                            <button className="square-icon-button" onClick={handleOpenModalFish}>
+                                <FaCalculator />
+                            </button>
+                            <span className="text">Calculate Salt</span>
+                        </div>                   
                     </div>
                     </div>
                 </div>  

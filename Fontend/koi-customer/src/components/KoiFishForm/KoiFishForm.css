@@ -1,0 +1,511 @@
+.koi-fish-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f2e;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    gap: 20px;
+}
+
+.koi-fish-details {
+    display: flex;
+    gap: 20px;
+}
+
+.koi-fish-image {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.koi-fish-image img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 565px;
+}
+
+.koi-fish-info {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #242734;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.koi-title {
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+}
+.koi-fish-form .koi-fish-stats {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.koi-fish-form .stat-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+.koi-fish-form .stat-label {
+    color: gray;
+    font-size: 25px;
+    flex: 2;
+}
+
+.koi-fish-form .stat-value {
+    font-size: 20px;
+    color: #fff;
+    flex: 1;
+    text-align: right;
+    font-weight: 900;
+}
+
+/* Modal Overlay */
+.koi-fish-form .modal-overlay-fish {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.koi-fish-form .modal-content-fish {
+    background-color: #242734;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px; /* Adjust width to accommodate two columns */
+    max-width: 90%;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.koi-fish-form .modal-content-fish h2 {
+    color: coral;
+}
+
+/* Form Columns */
+.koi-fish-form .form-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.koi-fish-form .form-column {
+    flex: 1;
+}
+
+.koi-fish-form .form-column h3 {
+    color: #F28C28;
+}
+
+/* Form Labels and Inputs */
+.koi-fish-form .fish-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #b2d4f2;
+}
+
+.koi-fish-form .fish-form input,
+.koi-fish-form .fish-form textarea {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Button Group */
+.koi-fish-form .button-group-fish {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.koi-fish-form .button-group-fish button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.koi-fish-form .button-group-fish button:first-child {
+    background-color: #094a91;
+    color: white;
+}
+
+.koi-fish-form .button-group-fish button:last-child {
+    background-color: #444;
+    color: white;
+}
+
+.koi-fish-form .button-group-fish button:hover {
+    opacity: 0.9;
+}
+
+/* Growth Information Section Below koi-fish-details */
+.koi-fish-form .koi-fish-growth {
+    margin-top: 20px;
+    background-color: #242734;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .koi-fish-form .growth-title {
+    font-size: 24px;
+    color: coral;
+    margin-bottom: 10px;
+  }
+  
+  .koi-fish-form .growth-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .koi-fish-form .growth-item {
+    display: flex;
+    justify-content: space-between; /* Align left and right sections */
+    padding: 10px;
+    background-color: #1f1f2e;
+    border-radius: 10px;
+    color: #fff;
+    width: 503px;
+  }
+  .koi-fish-form .growth-left {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2; /* Make sure the left section takes most of the space */
+  }
+  
+  .koi-fish-form .growth-right {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #242734;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    flex: 1;
+  }
+  
+  .koi-fish-form .growth-item span {
+    font-size: 20px;
+    text-align: left; /* Align text to the left within each span */
+  }
+  
+  .koi-fish-form .growth-item .growth-left span {
+    margin-right: 10px; /* Keep the margin for each item */
+  }
+  
+
+
+
+/* Modal Overlay */
+.koi-fish-form .modal-overlay-fish-growth {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+  
+
+  /* Modal Content */
+.koi-fish-form .modal-content-fish-growth {
+    background-color: #242734;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px; /* Adjust width to accommodate two columns */
+    max-width: 90%;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.koi-fish-form .modal-content-fish-growth h2 {
+    color: coral;
+}
+
+/* Form Columns */
+.koi-fish-form .form-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.koi-fish-form .form-column {
+    flex: 1;
+}
+
+.koi-fish-form .form-column h3 {
+    color: #F28C28;
+}
+
+/* Form Labels and Inputs */
+.koi-fish-form .fish-growth-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #b2d4f2;
+}
+
+.koi-fish-form .fish-growth-form input,
+.koi-fish-form .fish-growth-form textarea {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Button Group */
+.koi-fish-form .button-group-fish-growth {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.koi-fish-form .button-group-fish-growth button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.koi-fish-form .button-group-fish-growth button:first-child {
+    background-color: #094a91;
+    color: white;
+}
+
+.koi-fish-form .button-group-fish-growth button:last-child {
+    background-color: #444;
+    color: white;
+}
+
+.koi-fish-form .button-group-fish-growth button:hover {
+    opacity: 0.9;
+}
+
+
+
+/* Modal Overlay for Feeding */
+.koi-fish-form .modal-overlay-feeding {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content for Feeding */
+.koi-fish-form .modal-content-feeding {
+    background-color: #242734; /* Dark background for modal */
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px; /* Adjust width as needed */
+    max-width: 90%;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Title within Feeding Modal */
+.koi-fish-form .modal-content-feeding h2 {
+    color: coral;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Form Labels and Inputs */
+.koi-fish-form .feeding-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #b2d4f2;
+}
+
+.koi-fish-form .feeding-form input,
+.koi-fish-form .feeding-form textarea {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 5px;
+}
+
+/* Feeding Info Section */
+.koi-fish-form .feeding-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Button Group for Feeding Modal */
+.koi-fish-form .button-group-feeding {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.koi-fish-form .button-group-feeding button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.koi-fish-form .button-group-feeding button:first-child {
+    background-color: #094a91;
+    color: white;
+}
+
+.koi-fish-form .button-group-feeding button:last-child {
+    background-color: #444;
+    color: white;
+}
+
+.koi-fish-form .button-group-feeding button:hover {
+    opacity: 0.9;
+}
+
+/* Table Styling */
+.koi-fish-form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #242734;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table Header */
+.koi-fish-form th {
+    background-color: #1f1f2e;
+    color: #F28C28;
+    padding: 15px;
+    font-size: 18px;
+    border-bottom: 2px solid #444;
+}
+
+/* Table Cells */
+.koi-fish-form td {
+    padding: 15px;
+    text-align: left;
+    font-size: 16px;
+    border-bottom: 1px solid #444;
+}
+
+/* Table Row Hover Effect */
+.koi-fish-form tr:hover {
+    background-color: #333;
+}
+
+/* Optional: Add borders around the table */
+.koi-fish-form table,
+.koi-fish-form th,
+.koi-fish-form td {
+    border: 1px solid #555; /* Border color for table elements */
+}
+
+/* Styling for the first column to add emphasis */
+.koi-fish-form td:first-child {
+    font-weight: bold;
+    color: #b2d4f2;
+}
+
+
+/* Add Note Form */
+.koi-fish-form .add-note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background-color: #1f1f2e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+.koi-fish-form .add-note-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #b2d4f2;
+}
+
+.koi-fish-form .add-note-form input,
+.koi-fish-form .add-note-form textarea {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+}
+
+.koi-fish-form .add-note-form textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+/* Button Group in Add Note Form */
+.koi-fish-form .button-group-feeding {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.koi-fish-form .button-group-feeding button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.koi-fish-form .button-group-feeding button:first-child {
+    background-color: #094a91;
+    color: white;
+}
+
+.koi-fish-form .button-group-feeding button:last-child {
+    background-color: #444;
+    color: white;
+}
+
+.koi-fish-form .button-group-feeding button:hover {
+    opacity: 0.9;
+}

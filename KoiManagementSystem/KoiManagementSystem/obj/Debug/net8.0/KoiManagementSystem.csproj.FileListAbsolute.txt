@@ -266,6 +266,7 @@ D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\KoiManagementSy
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.pdb
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.genruntimeconfig.cache
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\ref\KoiManagementSystem.dll
+<<<<<<< HEAD
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\appsettings.json
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\default.json
@@ -357,3 +358,11 @@ D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManageme
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.pdb
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.genruntimeconfig.cache
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\ref\KoiManagementSystem.dll
+=======
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.SqlServer.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+>>>>>>> f99da12c488252e083ece2a94f48a1f3670e4a9c

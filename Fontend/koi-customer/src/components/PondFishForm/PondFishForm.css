@@ -74,7 +74,7 @@
 }
 
 
-
+/* Fish section styling */
 .pond-fish-form .fish-section {
     width: 100%;
     margin-top: 20px;
@@ -133,4 +133,186 @@
 .pond-fish-form .fish-age {
     font-size: 18px;
     color: #ccc;
+}
+
+
+
+/* Modal Overlay */
+.pond-fish-form .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.pond-fish-form .modal-content {
+    background-color: #242734;
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px; /* Adjust width to accommodate two columns */
+    max-width: 90%;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pond-fish-form .modal-content h2 {
+    color: coral;
+}
+
+/* Form Columns */
+.pond-fish-form .form-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.pond-fish-form .form-column {
+    flex: 1;
+}
+
+.pond-fish-form .form-column h3 {
+    color: #F28C28;
+}
+
+/* Form Labels and Inputs */
+.pond-fish-form .pond-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #b2d4f2;
+}
+
+.pond-fish-form .pond-form input,
+.pond-fish-form .pond-form textarea {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Button Group */
+.pond-fish-form .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pond-fish-form .button-group button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.pond-fish-form .button-group button:first-child {
+    background-color: #094a91;
+    color: white;
+}
+
+.pond-fish-form .button-group button:last-child {
+    background-color: #444;
+    color: white;
+}
+
+.pond-fish-form .button-group button:hover {
+    opacity: 0.9;
+}
+
+
+
+/* Modal Overlay */
+.pond-fish-form .modal-overlay-fish {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.pond-fish-form .modal-content-fish {
+    background-color: #242734;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px; /* Adjust width to accommodate two columns */
+    max-width: 90%;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.pond-fish-form .modal-content-fish h2 {
+    color: coral;
+}
+
+/* Form Columns */
+.pond-fish-form .form-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.pond-fish-form .form-column {
+    flex: 1;
+}
+
+.pond-fish-form .form-column h3 {
+    color: #F28C28;
+}
+
+/* Form Labels and Inputs */
+.pond-fish-form .fish-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #b2d4f2;
+}
+
+.pond-fish-form .fish-form input,
+.pond-fish-form .fish-form textarea {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Button Group */
+.pond-fish-form .button-group-fish {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pond-fish-form .button-group-fish button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.pond-fish-form .button-group-fish button:first-child {
+    background-color: #094a91;
+    color: white;
+}
+
+.pond-fish-form .button-group-fish button:last-child {
+    background-color: #444;
+    color: white;
+}
+
+.pond-fish-form .button-group-fish button:hover {
+    opacity: 0.9;
 }

@@ -79,6 +79,7 @@ builder.Services.AddScoped<IAuthenService, AuthenService>();
 builder.Services.AddScoped<IKoiFishService, KoiFishService>();
 builder.Services.AddScoped<IKoiGrowthService, KoiGrowthService>();
 builder.Services.AddScoped<IFeedScheduleService, FeedScheduleService>();
+builder.Services.AddScoped<IPondService, PondService>();
 
 
 builder.Services.AddScoped<IVnPayService, VnPayService>();
@@ -96,7 +97,7 @@ builder.Services.AddScoped<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<IOrderItemRepository, OrderItemRepository>();
 builder.Services.AddScoped<ICartSerivce, CartService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-
+builder.Services.AddTransient<IPondRepo, PondRepo>();
 
 
 // Cấu hình CORS

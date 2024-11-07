@@ -3570,19 +3570,40 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\huy\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> f99da12c488252e083ece2a94f48a1f3670e4a9c
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
       "projectPath": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
       "packagesPath": "C:\\Users\\huy\\.nuget\\packages\\",
       "outputPath": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\obj\\",
+=======
+      "projectUniqueName": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
+      "projectName": "ServiceLayer",
+      "projectPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\obj\\",
+>>>>>>> f99da12c488252e083ece2a94f48a1f3670e4a9c
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> f99da12c488252e083ece2a94f48a1f3670e4a9c
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3596,11 +3617,19 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj": {
               "projectPath": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj"
             },
             "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj": {
               "projectPath": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj"
+=======
+            "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj"
+            },
+            "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "D:\\FPT\\PRN211\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj"
+>>>>>>> f99da12c488252e083ece2a94f48a1f3670e4a9c
             }
           }
         }
