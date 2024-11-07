@@ -3570,19 +3570,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\huy\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
+      "projectUniqueName": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
       "projectName": "ServiceLayer",
-      "projectPath": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
-      "packagesPath": "C:\\Users\\huy\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\obj\\",
+      "projectPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\ServiceLayer.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\ServiceLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\huy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3590,17 +3590,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj"
+            "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj": {
-              "projectPath": "D:\\Code\\PRN231\\PRN-Project\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj"
+            "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj": {
+              "projectPath": "D:\\groupProject\\PRN231\\Koi-management-system\\KoiManagementSystem\\RepositoryLayer\\RepositoryLayer.csproj"
             }
           }
         }
@@ -3657,7 +3658,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
