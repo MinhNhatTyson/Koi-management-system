@@ -266,12 +266,15 @@ D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\KoiManagementSy
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.pdb
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.genruntimeconfig.cache
 D:\groupProject\PRN231\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\ref\KoiManagementSystem.dll
+<<<<<<< HEAD
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.SqlServer.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+=======
+>>>>>>> a107a07695b5f3f227a4b45af4255aada299e821
 <<<<<<< HEAD
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\appsettings.Development.json
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\appsettings.json
@@ -364,6 +367,17 @@ D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManageme
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.pdb
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\KoiManagementSystem.genruntimeconfig.cache
 D:\Code\PRN231\PRN-Project\Koi-management-system\KoiManagementSystem\KoiManagementSystem\obj\Debug\net8.0\ref\KoiManagementSystem.dll
+<<<<<<< HEAD
 >>>>>>> d465c213222529e7cd270e6732e54ef5bfa505ae
 =======
 >>>>>>> 273275ec68be5c185bac60694e345db247edbf49
+=======
+=======
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Caching.SqlServer.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\FPT\PRN211\Koi-management-system\KoiManagementSystem\KoiManagementSystem\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+>>>>>>> f99da12c488252e083ece2a94f48a1f3670e4a9c
+>>>>>>> a107a07695b5f3f227a4b45af4255aada299e821

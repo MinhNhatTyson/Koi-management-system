@@ -15,6 +15,7 @@ import History from './pages/History/History';
 import ProductDetail from './pages/ProductDetail/ProductDetail';
 import Invoice from './pages/Invoice/Invoice';
 import Pond from './pages/Pond/Pond';
+import KoiFish from './pages/KoiFish/KoiFish';
 const App = () => {
   return (
     <Router>
@@ -34,7 +35,8 @@ const App = () => {
             <Route path="/history" element={<History />} />
             <Route path="/product-detail/:productId" element={<ProductDetail />} />
             <Route path="/invoice" element={<Invoice />} />
-            <Route path="/pond" element={<Pond />} />
+            <Route path="/pond-fish-form/:pondId" element={<Pond />} />
+            <Route path="/koi-fish/:koiId" element={<KoiFish />} />
           </Routes>
         </main>
         <Footer />

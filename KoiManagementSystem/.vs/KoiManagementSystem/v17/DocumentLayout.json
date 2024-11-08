@@ -262,8 +262,7 @@
               "RelativeToolTip": "KoiManagementSystem\\Controllers\\Koi\\KoiFishController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:22:00.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T09:22:00.146Z"
             },
             {
               "$type": "Document",
@@ -275,8 +274,7 @@
               "RelativeToolTip": "KoiManagementSystem\\Controllers\\Koi\\FeedScheduleController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:21:59.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T09:21:59.703Z"
             },
             {
               "$type": "Document",
@@ -288,8 +286,7 @@
               "RelativeToolTip": "KoiManagementSystem\\Controllers\\Order\\VnPayController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:21:57.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T09:21:57.013Z"
             },
             {
               "$type": "Document",
@@ -301,8 +298,7 @@
               "RelativeToolTip": "KoiManagementSystem\\Controllers\\Ponds\\SaltCalculationController.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:21:47.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T09:21:47.482Z"
             },
             {
               "$type": "Document",
@@ -314,8 +310,7 @@
               "RelativeToolTip": "ServiceLayer\\Service\\SaltCalculationService.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:21:43.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T09:21:43.633Z"
             },
             {
               "$type": "Document",
@@ -327,8 +322,7 @@
               "RelativeToolTip": "ServiceLayer\\Interface\\ISaltCalculationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:21:38.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T09:21:38.569Z"
             },
             {
               "$type": "Document",
@@ -340,8 +334,7 @@
               "RelativeToolTip": "RepositoryLayer\\Interface\\ISaltCalculationRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:21:36.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T09:21:36.231Z"
             },
             {
               "$type": "Document",
@@ -353,8 +346,7 @@
               "RelativeToolTip": "KoiManagementSystem\\Controllers\\Ponds\\WaterParameterController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T06:51:36.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T06:51:36.108Z"
             },
             {
               "$type": "Document",
@@ -366,8 +358,7 @@
               "RelativeToolTip": "KoiManagementSystem\\Controllers\\Authen\\AuthenController.cs",
               "ViewState": "AQIAACoAAAAAAAAAAAAowCkAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:24:16.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-06T18:24:16.84Z"
             },
             {
               "$type": "Document",
@@ -379,8 +370,7 @@
               "RelativeToolTip": "RepositoryLayer\\Repository\\SaltCalculationRepo.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAA1wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:21:32.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-07T09:21:32.946Z"
             },
             {
               "$type": "Document",
