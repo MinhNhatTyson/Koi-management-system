@@ -59,9 +59,10 @@
 
 /* Left Section */
 .container-form-account .left-section {
-    flex: 2;
+    flex: 3;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 
 /* Tags section */
@@ -99,8 +100,8 @@
 
 /* Sidebar section */
 .container-form-account .sidebar {
+    margin-bottom: 15px;
     margin-right: 20px;
-    margin-bottom: 20px;
     flex: 1;
     padding: 20px;
     background-color: #242734;
@@ -109,12 +110,17 @@
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center align children horizontally */
     height: fit-content;
+    gap: 20px;
 }
 
 .container-form-account .sidebar-container {
+    border-radius: 10px;
+    background-color: #343746;
     display: flex; /* Use flexbox for horizontal layout */
     justify-content: space-between; /* Space items evenly */
     width: 100%; /* Full width */
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-form-account .square-icon-button {
@@ -134,19 +140,26 @@
 .container-form-account .square-icon-button:hover {
     background-color: #073464; /* Darker shade on hover */
 }
+.container-form-account .sidebar-items {
+    margin-left: 8px;
+    margin-top: 5px;
+    display: flex;
+    width: 100%; /* Make sidebar-items full width */
+    margin-bottom: 5px;
+}
 
 .container-form-account .sidebar-item {
+    width: 25%;
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center align items */
-    gap: 5px; /* Space between icon, number, and text */
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
     padding: 10px;
     color: #ccc;
     border-radius: 5px;
-    margin: 0 10px; /* Margin on left and right */
     background-color: #333;
     transition: background-color 0.3s ease;
-    flex: 1; /* Allow items to grow equally */
+    margin: 0 5px; /* Add spacing between items */
 }
 
 .container-form-account .sidebar-item:hover {
@@ -155,8 +168,8 @@
 
 .container-form-account .icon-container {
     display: flex;
-    flex-direction: column; /* Stack icon, number, and text */
-    align-items: center; /* Center align items */
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-form-account .number {
@@ -170,14 +183,14 @@
 
 /* Full-width round button */
 .container-form-account .full-width-button {
-    width: 95%; /* Make the button full width */
-    border: none; /* Remove default border */
-    border-radius: 25px; /* Make it round */
-    background-color: #094a91; /* Button color */
-    color: white; /* Text color */
-    font-size: 1em; /* Adjust font size */
-    cursor: pointer; /* Change cursor on hover */
-    transition: background-color 0.3s ease; /* Transition effect */
+    width: 90%; /* Make the button nearly full width */
+    border: none;
+    border-radius: 25px;
+    background-color: #094a91;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 .container-form-account .full-width-button:hover {
@@ -339,5 +352,95 @@
 }
 
 .container-form-account .button-group button:hover {
+    opacity: 0.9;
+}
+
+
+/* Modal Overlay */
+.container-form-account .modal-overlay-fish {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.container-form-account .modal-content-fish {
+    background-color: #242734;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px; /* Adjust width to accommodate two columns */
+    max-width: 90%;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.container-form-account .modal-content-fish h2 {
+    color: coral;
+}
+
+/* Form Columns */
+.container-form-account .form-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.container-form-account .form-column {
+    flex: 1;
+}
+
+.container-form-account .form-column h3 {
+    color: #F28C28;
+}
+
+/* Form Labels and Inputs */
+.container-form-account .fish-form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+    font-size: 16px;
+    color: #b2d4f2;
+}
+
+.container-form-account .fish-form input,
+.container-form-account .fish-form textarea {
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Button Group */
+.container-form-account .button-group-fish {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-form-account .button-group-fish button {
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.container-form-account .button-group-fish button:first-child {
+    background-color: #094a91;
+    color: white;
+}
+
+.container-form-account .button-group-fish button:last-child {
+    background-color: #444;
+    color: white;
+}
+
+.container-form-account .button-group-fish button:hover {
     opacity: 0.9;
 }

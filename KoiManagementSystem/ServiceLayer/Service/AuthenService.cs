@@ -30,11 +30,13 @@ namespace ServiceLayer.Service
         public async Task<string?> Login(LoginRequest loginRequest)
         {
             string existingEmail = await authenRepository.findByEmail(loginRequest.Email);
-            if (existingEmail == null) {
+            if (existingEmail == null)
+            {
                 throw new Exception("tài khoản chưa kích hoạt");
             }
             User user = await authenRepository.findAccount(existingEmail);
-            if (user.PasswordHash == loginRequest.PasswordHash)
+            bool isPasswordValid = BCrypt.Net.BCrypt.Verify(loginRequest.PasswordHash, user.PasswordHash);
+            if (isPasswordValid)
             {
                 return await GenerateJwtToken(user);
             }

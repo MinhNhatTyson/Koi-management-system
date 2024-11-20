@@ -1,13 +1,16 @@
   .order-summary {
     padding: 20px;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
+
     background-color: #ffffff;
-    margin: 50px;
+    margin: 10px;
   }
   
   .order-summary .order-content {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
     display: flex;
+    margin-top: 50px;
+    padding: 20px;
   }
   
   .order-summary .order-details {

@@ -1,1 +1,304 @@
-ECHO is on.
+import React, { useState,useEffect } from 'react';
+import './AccountForm.css';
+import { SiSpond } from "react-icons/si";
+import { IoFish } from "react-icons/io5";
+import { FaMicroblog } from "react-icons/fa";
+import {jwtDecode} from 'jwt-decode';
+
+function AccountForm() {
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const handleOpenModal = () => setIsModalOpen(true);
+    const handleCloseModal = () => setIsModalOpen(false);
+    const [pondItems, setPondItems] = useState([]);
+    const [email, setEmail] = useState('');
+    const [username, setUsername] = useState('');
+    useEffect(() => {
+        const fetchUserData = async () => {
+            const token = localStorage.getItem('authToken');
+            if (!token) {
+                alert('User is not authenticated');
+                return;
+            }
+    
+            try {
+                const decodedToken = jwtDecode(token);
+                const userId = decodedToken.userId;
+    
+                // Gọi API để lấy thông tin hồ cá
+                const response = await fetch(`https://localhost:7177/api/Ponds/get-pond-by-userId/${userId}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`,
+                    },
+                });
+    
+                if (response.ok) {
+                    const data = await response.json();
+                    const formattedPonds = data.map(pond => ({
+                        pondId: pond.pondId,  // Thêm thuộc tính pondId
+                        name: pond.pondName,
+                        size: pond.size,
+                        measurementDate: pond.measurementDate,
+                    }));
+                    setPondItems(formattedPonds);
+                } else {
+                    console.error(`Failed to fetch ponds: ${response.status}`);
+                }
+    
+                // Lấy thông tin user profile
+                const profileResponse = await fetch(`https://localhost:7177/Authen/profile?userId=${userId}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${token}`,
+                    },
+                });
+    
+                if (profileResponse.ok) {
+                    const profileData = await profileResponse.json();
+                    setEmail(profileData.email);
+                    setUsername(profileData.username);
+                } else {
+                    console.error("Failed to fetch user profile.");
+                }
+            } catch (error) {
+                console.error("Error fetching data:", error);
+            }
+        };
+    
+        fetchUserData();
+    }, []);
+    
+    const handleOverlayClick = (event) => {
+        if (event.target.classList.contains('modal-overlay')) {
+            handleCloseModal();
+        }
+    };
+    const [activeTab, setActiveTab] = useState("Blog");
+    // const pondItems = [
+    //     {
+    //         name: "Goldfish",
+    //         image: "https://images.pexels.com/photos/13157061/pexels-photo-13157061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    //         description: "A popular freshwater fish with vibrant colors.",
+    //     },
+    //     {
+    //         name: "Betta Fish",
+    //         image: "https://images.pexels.com/photos/13157061/pexels-photo-13157061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    //         description: "Known for its beautiful fins and variety of colors.",
+    //     },
+    //     {
+    //         name: "Koi Fish",
+    //         image: "https://images.pexels.com/photos/13157061/pexels-photo-13157061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    //         description: "A Japanese pond fish that symbolizes good luck.",
+    //     }
+    // ];
+    return (
+        
+        <div className="container-form-account">
+            {isModalOpen && (
+                <div className="modal-overlay" onClick={handleOverlayClick}>
+                    <div className="modal-content">
+                        <h2>Pond Information</h2>
+                        <form className="pond-form">
+                            <div className="form-columns">
+                                {/* Left Column: Pond Details and SaltID */}
+                                <div className="form-column">
+                                    <h3>Pond Details</h3>
+                                    <label>
+                                        Pond Name:
+                                        <input type="text" name="pondName" />
+                                    </label>
+                                    <label>
+                                        Size:
+                                        <input type="text" name="size" />
+                                    </label>
+                                    <label>
+                                        Volume:
+                                        <input type="text" name="volume" />
+                                    </label>
+                                    <label>
+                                        Water Discharge Rate:
+                                        <input type="text" name="waterDischargeRate" />
+                                    </label>
+                                    <label>
+                                        Pump Capacity:
+                                        <input type="text" name="pumpCapacity" />
+                                    </label>
+
+                                    <h3>SaltID</h3>
+                                    <label>
+                                        Calculation Date:
+                                        <input type="date" name="calculationDate" />
+                                    </label>
+                                    <label>
+                                        Salt Amount:
+                                        <input type="number" name="saltAmount" />
+                                    </label>
+                                    <label>
+                                        Notes:
+                                        <textarea name="notes" rows="3"></textarea>
+                                    </label>
+                                </div>
+
+                                {/* Right Column: ParameterID */}
+                                <div className="form-column">
+                                    <h3>ParameterID</h3>
+                                    <label>
+                                        Measurement Date:
+                                        <input type="date" name="measurementDate" />
+                                    </label>
+                                    <label>
+                                        Temperature:
+                                        <input type="number" name="temperature" />
+                                    </label>
+                                    <label>
+                                        Salinity:
+                                        <input type="number" name="salinity" />
+                                    </label>
+                                    <label>
+                                        pH:
+                                        <input type="number" name="ph" step="0.1" />
+                                    </label>
+                                    <label>
+                                        Oxygen:
+                                        <input type="number" name="oxygen" />
+                                    </label>
+                                    <label>
+                                        NO2:
+                                        <input type="number" name="no2" />
+                                    </label>
+                                    <label>
+                                        NO3:
+                                        <input type="number" name="no3" />
+                                    </label>
+                                    <label>
+                                        PO4:
+                                        <input type="number" name="po4" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div className="button-group">
+                                <button type="submit">Save</button>
+                                <button type="button" onClick={handleCloseModal}>Cancel</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            )}
+            {/* Header Section */}
+            <div className="header">
+                <img
+                    src="https://hyl-static-res-prod.hoyolab.com/avatar/avatar30038.png?x-oss-process=image%2Fresize%2Cs_600%2Fauto-orient%2C0%2Finterlace%2C1%2Fformat%2Cwebp%2Fquality%2Cq_70"
+                    alt="Profile"
+                    className="profile-picture"
+                />
+                <div className="profile-info">
+                    <h1>{username}</h1>
+                    <div className="stats">
+                        <span>{email}</span>
+                        <span>{pondItems.length} Pond</span>
+                        <span>0 Koi Fish</span>
+                        <span>0 Blog</span>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* Main Section */}
+            <div className="main">
+                {/* Left Section with Tags and Content */}
+                <div className="left-section">
+                    {/* Tags Section */}
+                    <div className="tags">
+                        {["Blog", "Pond", "KoiFish", "Calculate"].map((tab) => (
+                            <div 
+                                key={tab}
+                                className={`tab ${activeTab === tab ? "active" : ""}`}
+                                onClick={() => setActiveTab(tab)}
+                            >
+                                {tab}
+                            </div>
+                        ))}
+                    </div>
+
+                    {/* Content Section */}
+                    <div className="content">
+                        {activeTab === "Blog" ? (
+                            <div className="content-placeholder">
+                                You have not posted any content yet.
+                            </div>
+                        ) : activeTab === "Pond" ? (
+                            <div className="pond-list">
+                                {pondItems.map((item, index) => (
+                                    <div key={index} className="pond-card">
+                                         <img src="https://images.pexels.com/photos/13157061/pexels-photo-13157061.jpeg" alt={item.name} className="pond-card-image" />
+                                        <div className="pond-card-content">
+                                            <h3 className="pond-card-title">{item.name}</h3>
+                                            <p className="pond-card-size">Size: {item.size}</p>
+                                            <p className="pond-card-date">Measurement Date: {new Date(item.measurementDate).toLocaleDateString()}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : (
+                            <div className="content-placeholder">
+                                Content {activeTab}
+                            </div>
+                        )}
+                    </div>
+                </div>
+                            
+                {/* Right Section - Sidebar */}
+                <div className="sidebar">
+                    <div className="sidebar-container">
+                        <div className="sidebar-item">
+                            <div className="icon-container">
+                                <span className="icon"><SiSpond /></span>
+                                <span className="number">3</span>
+                                <span className="text">Pond</span>
+                            </div>
+                        </div>
+                        <div className="sidebar-item">
+                            <div className="icon-container">
+                                <span className="icon"><IoFish /></span>
+                                <span className="number">0</span>
+                                <span className="text">KoiFish</span>
+                            </div>
+                        </div>
+                        <div className="sidebar-item">
+                            <div className="icon-container">
+                                <span className="icon"><FaMicroblog /></span>
+                                <span className="number">0</span>
+                                <span className="text">Blog</span>
+                            </div>
+                        </div>
+                    </div>
+                <button className="full-width-button">Enter</button>
+                    <div className="sidebar-container">
+                        <div className="sidebar-item">
+                            <button className="square-icon-button" onClick={handleOpenModal}>
+                                <SiSpond />
+                            </button>
+                            <span className="text">Add Pond</span>
+                        </div>                   
+                        <div className="sidebar-item">
+                            <button className="square-icon-button">
+                                <IoFish />
+                            </button>
+                            <span className="text">Add Fish</span>
+                        </div>
+                        <div className="sidebar-item">
+                            <button className="square-icon-button">
+                                <FaMicroblog />
+                            </button>
+                            <span className="text">Add Blog</span>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+    );
+}
+
+export default AccountForm;
